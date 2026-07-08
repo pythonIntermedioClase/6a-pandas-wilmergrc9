@@ -28,7 +28,11 @@ def cargar_declaraciones(ruta, columnas=None):
     # Si se recibe una lista en `columnas`, úsala en el parámetro usecols.
     # Si `columnas` es None, carga todas las columnas.
     # Retorna el DataFrame cargado.
-    pass
+    #pass
+    df_datos=pd.read_csv(ruta)
+    print(df_datos)
+    return df_datos
+
 
 
 def inspeccionar_datos(df):
@@ -84,6 +88,6 @@ def validar_nulos(df, columnas_criticas):
 # Actualiza las llamadas a medida que implementas cada función.
 # =============================================================================
 if __name__ == "__main__":
-    df = cargar_declaraciones("data/inputs/declaraciones_iva_2025.csv")
+    df = cargar_declaraciones("data/input/declaraciones_iva_2025.csv")
     inspeccionar_datos(df)
     validar_nulos(df, ["nit", "valor_declarado", "estado"])
