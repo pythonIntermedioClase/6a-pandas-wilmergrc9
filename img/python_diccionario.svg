@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 870 690"
+   role="img"
+   font-family="system-ui, -apple-system, sans-serif"
+   style=""
+   version="1.1"
+   id="svg149"
+   sodipodi:docname="python_diccionario.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview149"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.7892876"
+     inkscape:cx="358.52258"
+     inkscape:cy="214.33111"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg149" />
+  <defs
+     id="defs75">
+    <mask
+       id="imagine-text-gaps-mkq5wg"
+       maskUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="870"
+         height="690"
+         fill="white"
+         id="rect1" />
+      <rect
+         x="323.2664489746094"
+         y="13.071791648864746"
+         width="213.46705627441406"
+         height="29.911115646362305"
+         fill="black"
+         rx="2"
+         id="rect2" />
+      <rect
+         x="339.59326171875"
+         y="41.04444122314453"
+         width="181.62261962890625"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect3" />
+      <rect
+         x="180.70860290527344"
+         y="73.04444122314453"
+         width="498.66448974609375"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect4" />
+      <rect
+         x="192.07586669921875"
+         y="91.04103088378906"
+         width="476.44940185546875"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect5" />
+      <rect
+         x="34.000003814697266"
+         y="101.33160400390625"
+         width="45.88566207885742"
+         height="123.58976745605469"
+         fill="black"
+         rx="2"
+         id="rect6" />
+      <rect
+         x="776"
+         y="101.33160400390625"
+         width="45.88566207885742"
+         height="123.58976745605469"
+         fill="black"
+         rx="2"
+         id="rect7" />
+      <rect
+         x="347.1376953125"
+         y="120.04444885253906"
+         width="165.35508728027344"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect8" />
+      <rect
+         x="35.9453239440918"
+         y="1.0376050472259521"
+         width="58.10935592651367"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect9" />
+      <rect
+         x="28.579967498779297"
+         y="13.05128002166748"
+         width="72.84007263183594"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect10" />
+      <rect
+         x="142.01898193359375"
+         y="2.034186363220215"
+         width="9.993162751197815"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect11" />
+      <rect
+         x="198.02223205566406"
+         y="1.0376050472259521"
+         width="60.95895767211914"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect12" />
+      <rect
+         x="205.17738342285156"
+         y="13.05128002166748"
+         width="47.6452522277832"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect13" />
+      <rect
+         x="35.9453239440918"
+         y="1.0376050472259521"
+         width="58.10935592651367"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect14" />
+      <rect
+         x="37.88398742675781"
+         y="13.05128002166748"
+         width="54.232032775878906"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect15" />
+      <rect
+         x="142.01898193359375"
+         y="2.034186363220215"
+         width="9.993162751197815"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect16" />
+      <rect
+         x="197.80422973632812"
+         y="1.0376050472259521"
+         width="61.394962310791016"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect17" />
+      <rect
+         x="216.94949340820312"
+         y="13.05128002166748"
+         width="24.101016998291016"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect18" />
+      <rect
+         x="35.9453239440918"
+         y="1.0376050472259521"
+         width="58.10935592651367"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect19" />
+      <rect
+         x="34.65288543701172"
+         y="13.05128002166748"
+         width="60.69424057006836"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect20" />
+      <rect
+         x="142.01898193359375"
+         y="2.034186363220215"
+         width="9.993162751197815"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect21" />
+      <rect
+         x="193.54541015625"
+         y="1.0376050472259521"
+         width="69.91261672973633"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect22" />
+      <rect
+         x="209.6074981689453"
+         y="13.05128002166748"
+         width="38.18951416015625"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect23" />
+      <rect
+         x="35.9453239440918"
+         y="1.0376050472259521"
+         width="58.10935592651367"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect24" />
+      <rect
+         x="36.0231819152832"
+         y="13.05128002166748"
+         width="57.95363998413086"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect25" />
+      <rect
+         x="142.01898193359375"
+         y="2.034186363220215"
+         width="9.993162751197815"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect26" />
+      <rect
+         x="197.2592315673828"
+         y="1.0376050472259521"
+         width="62.4849739074707"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect27" />
+      <rect
+         x="200.10882568359375"
+         y="13.05128002166748"
+         width="57.782352447509766"
+         height="22.935047149658203"
+         fill="black"
+         rx="2"
+         id="rect28" />
+      <rect
+         x="54.63774871826172"
+         y="350.0307922363281"
+         width="370.7244873046875"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect29" />
+      <rect
+         x="106.97174835205078"
+         y="7.044442176818848"
+         width="160.74835205078125"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect30" />
+      <rect
+         x="18"
+         y="37.03760528564453"
+         width="146.54930114746094"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect31" />
+      <rect
+         x="18"
+         y="54.0307731628418"
+         width="145.40365600585938"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect32" />
+      <rect
+         x="235.00341796875"
+         y="52.0376091003418"
+         width="109.6472396850586"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect33" />
+      <rect
+         x="18"
+         y="87.03760528564453"
+         width="115.68949890136719"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect34" />
+      <rect
+         x="18"
+         y="104.03076934814453"
+         width="266.3014221191406"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect35" />
+      <rect
+         x="18"
+         y="137.03761291503906"
+         width="140.71685791015625"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect36" />
+      <rect
+         x="18"
+         y="154.03076171875"
+         width="134.8843231201172"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect37" />
+      <rect
+         x="18"
+         y="187.03759765625"
+         width="147.52053833007812"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect38" />
+      <rect
+         x="18"
+         y="202.03077697753906"
+         width="140.37998962402344"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect39" />
+      <rect
+         x="154.2586669921875"
+         y="393.0444641113281"
+         width="132.18079376220703"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect40" />
+      <rect
+         x="35.00341796875"
+         y="417.0376281738281"
+         width="105.56417846679688"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect41" />
+      <rect
+         x="156"
+         y="419.0307922363281"
+         width="161.8939666748047"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect42" />
+      <rect
+         x="36"
+         y="448.03759765625"
+         width="49.791378021240234"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect43" />
+      <rect
+         x="103"
+         y="450.03076171875"
+         width="255.3079071044922"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect44" />
+      <rect
+         x="36"
+         y="479.0376281738281"
+         width="81.78441619873047"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect45" />
+      <rect
+         x="136"
+         y="481.0307922363281"
+         width="206.32809448242188"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect46" />
+      <rect
+         x="36"
+         y="510.03759765625"
+         width="78.86576080322266"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect47" />
+      <rect
+         x="131"
+         y="512.03076171875"
+         width="178.3686981201172"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect48" />
+      <rect
+         x="36"
+         y="541.0376586914062"
+         width="80.80340576171875"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect49" />
+      <rect
+         x="126.00001525878906"
+         y="543.0308227539062"
+         width="205.8525390625"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect50" />
+      <rect
+         x="598.474365234375"
+         y="393.0444641113281"
+         width="75.55603790283203"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect51" />
+      <rect
+         x="495.6792907714844"
+         y="417.041015625"
+         width="80.64144134521484"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect52" />
+      <rect
+         x="705.0182495117188"
+         y="417.041015625"
+         width="45.96352005004883"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect53" />
+      <rect
+         x="494.0832214355469"
+         y="443.03759765625"
+         width="83.57936096191406"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect54" />
+      <rect
+         x="671.6016235351562"
+         y="443.03759765625"
+         width="111.80017852783203"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect55" />
+      <rect
+         x="481.260009765625"
+         y="469.0376281738281"
+         width="110.29454040527344"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect56" />
+      <rect
+         x="682.5640258789062"
+         y="469.0376281738281"
+         width="90.98735809326172"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect57" />
+      <rect
+         x="479.8118591308594"
+         y="495.03759765625"
+         width="112.37632751464844"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect58" />
+      <rect
+         x="681.8633422851562"
+         y="495.03759765625"
+         width="93.0021743774414"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect59" />
+      <rect
+         x="489.7543029785156"
+         y="521.03759765625"
+         width="93.23155212402344"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect60" />
+      <rect
+         x="677.3630981445312"
+         y="521.03759765625"
+         width="102.01197814941406"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect61" />
+      <rect
+         x="442"
+         y="546.0341796875"
+         width="210.9115753173828"
+         height="15.958976745605469"
+         fill="black"
+         rx="2"
+         id="rect62" />
+      <rect
+         x="364.5311584472656"
+         y="589.0444946289062"
+         width="131.5726547241211"
+         height="19.94530200958252"
+         fill="black"
+         rx="2"
+         id="rect63" />
+      <rect
+         x="56"
+         y="610.0410766601562"
+         width="83.7510757446289"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect64" />
+      <rect
+         x="56"
+         y="627.03759765625"
+         width="94.5157241821289"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect65" />
+      <rect
+         x="56"
+         y="640.0376586914062"
+         width="111.2307357788086"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect66" />
+      <rect
+         x="251"
+         y="610.0410766601562"
+         width="106.73931121826172"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect67" />
+      <rect
+         x="251"
+         y="627.03759765625"
+         width="73.65778350830078"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect68" />
+      <rect
+         x="251"
+         y="640.0376586914062"
+         width="119.11883544921875"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect69" />
+      <rect
+         x="448.0000305175781"
+         y="610.0410766601562"
+         width="126.90625762939453"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect70" />
+      <rect
+         x="448.0000305175781"
+         y="627.03759765625"
+         width="76.23468017578125"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect71" />
+      <rect
+         x="448.0000305175781"
+         y="640.0376586914062"
+         width="95.5745849609375"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect72" />
+      <rect
+         x="651"
+         y="610.0410766601562"
+         width="64.50921630859375"
+         height="18.948720932006836"
+         fill="black"
+         rx="2"
+         id="rect73" />
+      <rect
+         x="651"
+         y="627.03759765625"
+         width="117.28277587890625"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect74" />
+      <rect
+         x="650.00341796875"
+         y="640.0376586914062"
+         width="181.40345764160156"
+         height="17.952138900756836"
+         fill="black"
+         rx="2"
+         id="rect75" />
+    </mask>
+  </defs>
+  <title
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="title75">Diccionarios en Python</title>
+  <desc
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="desc75">Qué es un diccionario en Python: estructura, acceso, métodos y comparación con lista</desc>
+  <rect
+     width="860"
+     height="680"
+     fill="var(--bg-primary,#ffffff)"
+     rx="12"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect76" />
+  <text
+     x="430"
+     y="36"
+     text-anchor="middle"
+     font-size="19"
+     font-weight="700"
+     fill="var(--text-primary,#111827)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:19px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text76">Diccionarios en Python</text>
+  <text
+     x="430"
+     y="56"
+     text-anchor="middle"
+     font-size="12"
+     fill="var(--text-secondary,#6b7280)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text77">Colección de pares  clave → valor</text>
+  <rect
+     x="20"
+     y="68"
+     width="820"
+     height="44"
+     rx="8"
+     fill="#fef9c3"
+     stroke="#fbbf24"
+     stroke-width="1.5"
+     style="fill:rgb(254, 249, 195);stroke:rgb(251, 191, 36);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect77" />
+  <text
+     x="430"
+     y="88"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="600"
+     fill="#92400e"
+     style="color:#0b0b0b;font-weight:600;font-size:12px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#92400e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text78">Piensa en un diccionario físico: buscas una palabra (clave) y encuentras su definición (valor).</text>
+  <text
+     x="430"
+     y="105"
+     text-anchor="middle"
+     font-size="11"
+     fill="#b45309"
+     style="fill:rgb(180, 83, 9);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text79">En Python: cada clave es única e inmutable (str, int, tuple). Los valores pueden ser cualquier cosa.</text>
+  <text
+     x="38"
+     y="200"
+     font-size="90"
+     fill="#e0e7ff"
+     font-weight="900"
+     style="fill:rgb(224, 231, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:90px;font-weight:900;text-anchor:start;dominant-baseline:auto"
+     id="text80">{</text>
+  <text
+     x="780"
+     y="200"
+     font-size="90"
+     fill="#e0e7ff"
+     font-weight="900"
+     style="fill:rgb(224, 231, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:90px;font-weight:900;text-anchor:start;dominant-baseline:auto"
+     id="text81">}</text>
+  <text
+     x="430"
+     y="135"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="var(--text-primary,#374151)"
+     style="color:#0b0b0b;font-weight:700;font-size:12px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#0b0b0b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text82">Partes de un diccionario</text>
+  <g
+     transform="translate(80,145)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g87">
+    <rect
+       x="0"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#6366f1"
+       stroke="#4338ca"
+       stroke-width="1.5"
+       style="fill:rgb(99, 102, 241);stroke:rgb(67, 56, 202);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect82" />
+    <text
+       x="65"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#c7d2fe"
+       font-weight="600"
+       style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text83">CLAVE (str)</text>
+    <text
+       x="65"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text84">&quot;nombre&quot;</text>
+    <line
+       x1="132"
+       y1="19"
+       x2="162"
+       y2="19"
+       stroke="#94a3b8"
+       stroke-width="2"
+       mask="url(#imagine-text-gaps-mkq5wg)"
+       style="fill:rgb(0, 0, 0);stroke:rgb(148, 163, 184);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line84" />
+    <polygon
+       points="162,19 154,14 154,24"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="polygon84" />
+    <text
+       x="147"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text85">:</text>
+    <rect
+       x="164"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#f0fdf4"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       style="fill:rgb(240, 253, 244);stroke:rgb(34, 197, 94);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect85" />
+    <text
+       x="229"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#15803d"
+       font-weight="600"
+       style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text86">VALOR (str)</text>
+    <text
+       x="229"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="#166534"
+       style="fill:rgb(22, 101, 52);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text87">&quot;Ana&quot;</text>
+  </g>
+  <g
+     transform="translate(80,195)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g92">
+    <rect
+       x="0"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#6366f1"
+       stroke="#4338ca"
+       stroke-width="1.5"
+       style="fill:rgb(99, 102, 241);stroke:rgb(67, 56, 202);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect87" />
+    <text
+       x="65"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#c7d2fe"
+       font-weight="600"
+       style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text88">CLAVE (str)</text>
+    <text
+       x="65"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text89">&quot;edad&quot;</text>
+    <line
+       x1="132"
+       y1="19"
+       x2="162"
+       y2="19"
+       stroke="#94a3b8"
+       stroke-width="2"
+       mask="url(#imagine-text-gaps-mkq5wg)"
+       style="fill:rgb(0, 0, 0);stroke:rgb(148, 163, 184);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line89" />
+    <polygon
+       points="162,19 154,14 154,24"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="polygon89" />
+    <text
+       x="147"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text90">:</text>
+    <rect
+       x="164"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#f0fdf4"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       style="fill:rgb(240, 253, 244);stroke:rgb(34, 197, 94);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect90" />
+    <text
+       x="229"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#15803d"
+       font-weight="600"
+       style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text91">VALOR (int)</text>
+    <text
+       x="229"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="#166534"
+       style="fill:rgb(22, 101, 52);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text92">28</text>
+  </g>
+  <g
+     transform="translate(80,245)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g97">
+    <rect
+       x="0"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#6366f1"
+       stroke="#4338ca"
+       stroke-width="1.5"
+       style="fill:rgb(99, 102, 241);stroke:rgb(67, 56, 202);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect92" />
+    <text
+       x="65"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#c7d2fe"
+       font-weight="600"
+       style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text93">CLAVE (str)</text>
+    <text
+       x="65"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text94">&quot;activo&quot;</text>
+    <line
+       x1="132"
+       y1="19"
+       x2="162"
+       y2="19"
+       stroke="#94a3b8"
+       stroke-width="2"
+       mask="url(#imagine-text-gaps-mkq5wg)"
+       style="fill:rgb(0, 0, 0);stroke:rgb(148, 163, 184);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line94" />
+    <polygon
+       points="162,19 154,14 154,24"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="polygon94" />
+    <text
+       x="147"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text95">:</text>
+    <rect
+       x="164"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#f0fdf4"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       style="fill:rgb(240, 253, 244);stroke:rgb(34, 197, 94);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect95" />
+    <text
+       x="229"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#15803d"
+       font-weight="600"
+       style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text96">VALOR (bool)</text>
+    <text
+       x="229"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="#166534"
+       style="fill:rgb(22, 101, 52);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text97">True</text>
+  </g>
+  <g
+     transform="translate(80,295)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g102">
+    <rect
+       x="0"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#6366f1"
+       stroke="#4338ca"
+       stroke-width="1.5"
+       style="fill:rgb(99, 102, 241);stroke:rgb(67, 56, 202);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect97" />
+    <text
+       x="65"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#c7d2fe"
+       font-weight="600"
+       style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text98">CLAVE (str)</text>
+    <text
+       x="65"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text99">&quot;notas&quot;</text>
+    <line
+       x1="132"
+       y1="19"
+       x2="162"
+       y2="19"
+       stroke="#94a3b8"
+       stroke-width="2"
+       mask="url(#imagine-text-gaps-mkq5wg)"
+       style="fill:rgb(0, 0, 0);stroke:rgb(148, 163, 184);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line99" />
+    <polygon
+       points="162,19 154,14 154,24"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="polygon99" />
+    <text
+       x="147"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text100">:</text>
+    <rect
+       x="164"
+       y="0"
+       width="130"
+       height="38"
+       rx="7"
+       fill="#f0fdf4"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       style="fill:rgb(240, 253, 244);stroke:rgb(34, 197, 94);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect100" />
+    <text
+       x="229"
+       y="14"
+       text-anchor="middle"
+       font-size="10"
+       fill="#15803d"
+       font-weight="600"
+       style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text101">VALOR (list)</text>
+    <text
+       x="229"
+       y="30"
+       text-anchor="middle"
+       font-size="14"
+       font-weight="700"
+       fill="#166534"
+       style="fill:rgb(22, 101, 52);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text102">[8, 9, 7]</text>
+  </g>
+  <rect
+     x="37.319588"
+     y="348"
+     width="405.36084"
+     height="18"
+     rx="5.0670099"
+     fill="#1e1b4b"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#1e1b4b;stroke:none;stroke-width:1.1255px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect102" />
+  <text
+     x="240"
+     y="361"
+     text-anchor="middle"
+     font-size="10"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text103">persona = {&quot;nombre&quot;:&quot;Ana&quot;,&quot;edad&quot;:28,&quot;activo&quot;:True,&quot;notas&quot;:[8,9,7]}</text>
+  <g
+     transform="translate(460,135)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g113">
+    <rect
+       x="0"
+       y="0"
+       width="375"
+       height="230"
+       rx="8"
+       fill="var(--bg-secondary,#f8fafc)"
+       stroke="var(--border,#e2e8f0)"
+       stroke-width="1"
+       style="fill:rgb(248, 250, 252);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect103" />
+    <text
+       x="187"
+       y="22"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="700"
+       fill="var(--text-primary,#374151)"
+       style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text104">Cómo acceder a los valores</text>
+    <rect
+       x="12"
+       y="32"
+       width="350"
+       height="42"
+       rx="6"
+       fill="#eef2ff"
+       stroke="#6366f1"
+       stroke-width="1.2"
+       style="fill:rgb(238, 242, 255);stroke:rgb(99, 102, 241);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect104" />
+    <text
+       x="22"
+       y="50"
+       font-size="10"
+       font-weight="700"
+       fill="#4338ca"
+       style="fill:rgb(67, 56, 202);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+       id="text105">[ ] — acceso directo por clave</text>
+    <text
+       x="22"
+       y="65"
+       font-size="10"
+       fill="#475569"
+       font-family="monospace"
+       style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text106">persona[&quot;nombre&quot;]  →  &quot;Ana&quot;</text>
+    <text
+       x="240"
+       y="65"
+       font-size="10"
+       fill="#94a3b8"
+       style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text107">⚠ KeyError si no existe</text>
+    <rect
+       x="12"
+       y="82"
+       width="350"
+       height="42"
+       rx="6"
+       fill="#f0fdf4"
+       stroke="#22c55e"
+       stroke-width="1.2"
+       style="fill:rgb(240, 253, 244);stroke:rgb(34, 197, 94);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect107" />
+    <text
+       x="22"
+       y="100"
+       font-size="10"
+       font-weight="700"
+       fill="#15803d"
+       style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+       id="text108">.get() — acceso seguro</text>
+    <text
+       x="22"
+       y="115"
+       font-size="10"
+       fill="#475569"
+       font-family="monospace"
+       style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text109">persona.get(&quot;email&quot;, &quot;sin email&quot;)  →  &quot;sin email&quot;</text>
+    <rect
+       x="12"
+       y="132"
+       width="350"
+       height="42"
+       rx="6"
+       fill="#fef9c3"
+       stroke="#fbbf24"
+       stroke-width="1.2"
+       style="fill:rgb(254, 249, 195);stroke:rgb(251, 191, 36);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect109" />
+    <text
+       x="22"
+       y="150"
+       font-size="10"
+       font-weight="700"
+       fill="#92400e"
+       style="fill:rgb(146, 64, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+       id="text110">anidado — valor es una lista</text>
+    <text
+       x="22"
+       y="165"
+       font-size="10"
+       fill="#475569"
+       font-family="monospace"
+       style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text111">persona[&quot;notas&quot;][0]  →  8</text>
+    <rect
+       x="12"
+       y="182"
+       width="350"
+       height="38"
+       rx="6"
+       fill="#fdf4ff"
+       stroke="#d946ef"
+       stroke-width="1.2"
+       style="fill:rgb(253, 244, 255);stroke:rgb(217, 70, 239);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect111" />
+    <text
+       x="22"
+       y="200"
+       font-size="10"
+       font-weight="700"
+       fill="#86198f"
+       style="fill:rgb(134, 25, 143);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+       id="text112">&quot;in&quot; — verificar si clave existe</text>
+    <text
+       x="22"
+       y="213"
+       font-size="10"
+       fill="#475569"
+       font-family="monospace"
+       style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text113">&quot;edad&quot; in persona  →  True</text>
+  </g>
+  <rect
+     x="20"
+     y="388"
+     width="400"
+     height="185"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="var(--border,#e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(248, 250, 252);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect113" />
+  <text
+     x="220"
+     y="408"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="var(--text-primary,#374151)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text114">Operaciones comunes</text>
+  <rect
+     x="30"
+     y="416"
+     width="380"
+     height="28"
+     rx="5"
+     fill="#eef2ff"
+     style="fill:rgb(238, 242, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect114" />
+  <text
+     x="40"
+     y="430"
+     font-size="10"
+     font-weight="700"
+     fill="#4338ca"
+     style="fill:rgb(67, 56, 202);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text115">Agregar / modificar:</text>
+  <text
+     x="160"
+     y="430"
+     font-size="10"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text116">persona[&quot;ciudad&quot;] = &quot;Bogotá&quot;</text>
+  <rect
+     x="30"
+     y="447"
+     width="380"
+     height="28"
+     rx="5"
+     fill="#fff1f2"
+     style="fill:rgb(255, 241, 242);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect116" />
+  <text
+     x="40"
+     y="461"
+     font-size="10"
+     font-weight="700"
+     fill="#be123c"
+     style="fill:rgb(190, 18, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text117">Eliminar:</text>
+  <text
+     x="107"
+     y="461"
+     font-size="10"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text118">del persona[&quot;activo&quot;]  /  persona.pop(&quot;activo&quot;)</text>
+  <rect
+     x="30"
+     y="478"
+     width="380"
+     height="28"
+     rx="5"
+     fill="#f0fdf4"
+     style="fill:rgb(240, 253, 244);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect118" />
+  <text
+     x="40"
+     y="492"
+     font-size="10"
+     font-weight="700"
+     fill="#15803d"
+     style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text119">Recorrer claves:</text>
+  <text
+     x="140"
+     y="492"
+     font-size="10"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text120">for k in persona:  →  &quot;nombre&quot;,&quot;edad&quot;…</text>
+  <rect
+     x="30"
+     y="509"
+     width="380"
+     height="28"
+     rx="5"
+     fill="#fef9c3"
+     style="fill:rgb(254, 249, 195);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect120" />
+  <text
+     x="40"
+     y="523"
+     font-size="10"
+     font-weight="700"
+     fill="#92400e"
+     style="fill:rgb(146, 64, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text121">Recorrer pares:</text>
+  <text
+     x="135"
+     y="523"
+     font-size="10"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text122">for k,v in persona.items(): ...</text>
+  <rect
+     x="30"
+     y="540"
+     width="380"
+     height="26"
+     rx="5"
+     fill="#fdf4ff"
+     style="fill:rgb(253, 244, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect122" />
+  <text
+     x="40"
+     y="554"
+     font-size="10"
+     font-weight="700"
+     fill="#86198f"
+     style="fill:rgb(134, 25, 143);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text123">Métodos útiles:</text>
+  <text
+     x="130"
+     y="554"
+     font-size="10"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text124">.keys()  .values()  .items()  .update()</text>
+  <rect
+     x="436"
+     y="388"
+     width="400"
+     height="185"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="var(--border,#e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(248, 250, 252);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect124" />
+  <text
+     x="636"
+     y="408"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="var(--text-primary,#374151)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text125">Dict vs Lista</text>
+  <rect
+     x="446"
+     y="416"
+     width="180"
+     height="22"
+     rx="4"
+     fill="#6366f1"
+     style="fill:rgb(99, 102, 241);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect125" />
+  <rect
+     x="630"
+     y="416"
+     width="196"
+     height="22"
+     rx="4"
+     fill="#f97316"
+     style="fill:rgb(249, 115, 22);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect126" />
+  <text
+     x="536"
+     y="431"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="700"
+     fill="white"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text126">Diccionario  { }</text>
+  <text
+     x="728"
+     y="431"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="700"
+     fill="white"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text127">Lista  [ ]</text>
+  <rect
+     x="446"
+     y="440"
+     width="180"
+     height="24"
+     rx="3"
+     fill="#eef2ff"
+     style="fill:rgb(238, 242, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect127" />
+  <rect
+     x="630"
+     y="440"
+     width="196"
+     height="24"
+     rx="3"
+     fill="#fff7ed"
+     style="fill:rgb(255, 247, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect128" />
+  <text
+     x="536"
+     y="456"
+     text-anchor="middle"
+     font-size="10"
+     fill="#3730a3"
+     style="fill:rgb(55, 48, 163);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text128">Acceso por clave</text>
+  <text
+     x="728"
+     y="456"
+     text-anchor="middle"
+     font-size="10"
+     fill="#c2410c"
+     style="fill:rgb(194, 65, 12);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text129">Acceso por posición [0]</text>
+  <rect
+     x="446"
+     y="466"
+     width="180"
+     height="24"
+     rx="3"
+     fill="#eef2ff"
+     style="fill:rgb(238, 242, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect129" />
+  <rect
+     x="630"
+     y="466"
+     width="196"
+     height="24"
+     rx="3"
+     fill="#fff7ed"
+     style="fill:rgb(255, 247, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect130" />
+  <text
+     x="536"
+     y="482"
+     text-anchor="middle"
+     font-size="10"
+     fill="#3730a3"
+     style="fill:rgb(55, 48, 163);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text130">Sin orden garantizado*</text>
+  <text
+     x="728"
+     y="482"
+     text-anchor="middle"
+     font-size="10"
+     fill="#c2410c"
+     style="fill:rgb(194, 65, 12);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text131">Orden garantizado</text>
+  <rect
+     x="446"
+     y="492"
+     width="180"
+     height="24"
+     rx="3"
+     fill="#eef2ff"
+     style="fill:rgb(238, 242, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect131" />
+  <rect
+     x="630"
+     y="492"
+     width="196"
+     height="24"
+     rx="3"
+     fill="#fff7ed"
+     style="fill:rgb(255, 247, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect132" />
+  <text
+     x="536"
+     y="508"
+     text-anchor="middle"
+     font-size="10"
+     fill="#3730a3"
+     style="fill:rgb(55, 48, 163);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text132">Clave única por entrada</text>
+  <text
+     x="728"
+     y="508"
+     text-anchor="middle"
+     font-size="10"
+     fill="#c2410c"
+     style="fill:rgb(194, 65, 12);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text133">Permite duplicados</text>
+  <rect
+     x="446"
+     y="518"
+     width="180"
+     height="24"
+     rx="3"
+     fill="#eef2ff"
+     style="fill:rgb(238, 242, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect133" />
+  <rect
+     x="630"
+     y="518"
+     width="196"
+     height="24"
+     rx="3"
+     fill="#fff7ed"
+     style="fill:rgb(255, 247, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect134" />
+  <text
+     x="536"
+     y="534"
+     text-anchor="middle"
+     font-size="10"
+     fill="#3730a3"
+     style="fill:rgb(55, 48, 163);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text134">Ideal para registros</text>
+  <text
+     x="728"
+     y="534"
+     text-anchor="middle"
+     font-size="10"
+     fill="#c2410c"
+     style="fill:rgb(194, 65, 12);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text135">Ideal para secuencias</text>
+  <rect
+     x="20"
+     y="584"
+     width="820"
+     height="82"
+     rx="8"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect136" />
+  <text
+     x="430"
+     y="604"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="#a5b4fc"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text137">Reglas del diccionario</text>
+  <text
+     x="60"
+     y="624"
+     font-size="11"
+     fill="#c7d2fe"
+     style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text138">✓ Claves únicas</text>
+  <text
+     x="60"
+     y="640"
+     font-size="10"
+     fill="#818cf8"
+     style="fill:rgb(129, 140, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text139">Si repites una clave,</text>
+  <text
+     x="60"
+     y="653"
+     font-size="10"
+     fill="#818cf8"
+     style="fill:rgb(129, 140, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text140">se sobreescribe el valor</text>
+  <line
+     x1="230"
+     y1="594"
+     x2="230"
+     y2="658"
+     stroke="#312e81"
+     stroke-width="1"
+     style="fill:rgb(0, 0, 0);stroke:rgb(49, 46, 129);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line140" />
+  <text
+     x="255"
+     y="624"
+     font-size="11"
+     fill="#c7d2fe"
+     style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text141">✓ Claves inmutables</text>
+  <text
+     x="255"
+     y="640"
+     font-size="10"
+     fill="#818cf8"
+     style="fill:rgb(129, 140, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text142">str, int, tuple ✓</text>
+  <line
+     x1="430"
+     y1="594"
+     x2="430"
+     y2="658"
+     stroke="#312e81"
+     stroke-width="1"
+     mask="url(#imagine-text-gaps-mkq5wg)"
+     style="fill:rgb(0, 0, 0);stroke:rgb(49, 46, 129);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line143" />
+  <text
+     x="452"
+     y="624"
+     font-size="11"
+     fill="#c7d2fe"
+     style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text144">✓ Valores: cualquier tipo</text>
+  <text
+     x="452"
+     y="640"
+     font-size="10"
+     fill="#818cf8"
+     style="color:#0b0b0b;font-weight:400;font-size:10px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#818cf8;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text145">str, int, list, dict, objetos,</text>
+  <line
+     x1="635"
+     y1="594"
+     x2="635"
+     y2="658"
+     stroke="#312e81"
+     stroke-width="1"
+     style="fill:rgb(0, 0, 0);stroke:rgb(49, 46, 129);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line146" />
+  <text
+     x="655"
+     y="624"
+     font-size="11"
+     fill="#c7d2fe"
+     style="fill:rgb(199, 210, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text147">✓ Mutables</text>
+  <text
+     x="655"
+     y="640"
+     font-size="10"
+     fill="#818cf8"
+     style="fill:rgb(129, 140, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text148">Puedes agregar, cambiar</text>
+  <text
+     x="655"
+     y="653"
+     font-size="10"
+     fill="#818cf8"
+     style="fill:rgb(129, 140, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text149">y eliminar pares en cualquier momento</text>
+</svg>

@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 870 670"
+   role="img"
+   font-family="system-ui, -apple-system, sans-serif"
+   style=""
+   version="1.1"
+   id="svg206"
+   sodipodi:docname="pandas_index_explicado.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview206"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3029851"
+     inkscape:cx="434.7709"
+     inkscape:cy="335"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg206" />
+  <defs
+     id="defs99">
+    <mask
+       id="imagine-text-gaps-9ik43z"
+       maskUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="870"
+         height="670"
+         fill="white"
+         id="rect1" />
+      <rect
+         x="345.306640625"
+         y="15.064615249633789"
+         width="169.4263916015625"
+         height="27.91838264465332"
+         fill="black"
+         rx="2"
+         id="rect2" />
+      <rect
+         x="358.8775329589844"
+         y="40.04420852661133"
+         width="142.8345184326172"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect3" />
+      <rect
+         x="128.04022216796875"
+         y="72.0442123413086"
+         width="604.0046997070312"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect4" />
+      <rect
+         x="206.2343292236328"
+         y="89.04080963134766"
+         width="448.1231994628906"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect5" />
+      <rect
+         x="174.57882690429688"
+         y="127.047607421875"
+         width="91.09678649902344"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect6" />
+      <rect
+         x="48.09746170043945"
+         y="163.0408172607422"
+         width="134.1273956298828"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect7" />
+      <rect
+         x="19.17173957824707"
+         y="-0.9625911712646484"
+         width="22.613722801208496"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect8" />
+      <rect
+         x="83.79945373535156"
+         y="-0.9625911712646484"
+         width="31.68621826171875"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect9" />
+      <rect
+         x="19.25497055053711"
+         y="19.0476131439209"
+         width="15.97279405593872"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect10" />
+      <rect
+         x="88.29094696044922"
+         y="20.044212341308594"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect11" />
+      <rect
+         x="19.25497055053711"
+         y="49.047611236572266"
+         width="15.490066528320312"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect12" />
+      <rect
+         x="88.29094696044922"
+         y="50.04420852661133"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect13" />
+      <rect
+         x="19.25497055053711"
+         y="79.047607421875"
+         width="15.490066528320312"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect14" />
+      <rect
+         x="88.29094696044922"
+         y="80.0442123413086"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect15" />
+      <rect
+         x="19.25497055053711"
+         y="109.047607421875"
+         width="15.490066528320312"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect16" />
+      <rect
+         x="87.29434204101562"
+         y="110.0442123413086"
+         width="28.909271240234375"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect17" />
+      <rect
+         x="151"
+         y="42.03740692138672"
+         width="54.51949691772461"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect18" />
+      <rect
+         x="151"
+         y="56.03740692138672"
+         width="54.51949691772461"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect19" />
+      <rect
+         x="36"
+         y="355.0306091308594"
+         width="175.10166931152344"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect20" />
+      <rect
+         x="36"
+         y="370.0306091308594"
+         width="143.7710723876953"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect21" />
+      <rect
+         x="263.65374755859375"
+         y="163.0408172607422"
+         width="102.933837890625"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect22" />
+      <rect
+         x="19.17173957824707"
+         y="-0.9625911712646484"
+         width="22.613722801208496"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect23" />
+      <rect
+         x="83.79945373535156"
+         y="-0.9625911712646484"
+         width="31.68621826171875"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect24" />
+      <rect
+         x="9.584842681884766"
+         y="21.04081153869629"
+         width="34.83032035827637"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect25" />
+      <rect
+         x="88.29094696044922"
+         y="20.044212341308594"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect26" />
+      <rect
+         x="7.396995544433594"
+         y="51.040809631347656"
+         width="39.20601463317871"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect27" />
+      <rect
+         x="88.29094696044922"
+         y="50.04420852661133"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect28" />
+      <rect
+         x="8.004298210144043"
+         y="81.04080963134766"
+         width="37.99140930175781"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect29" />
+      <rect
+         x="88.29094696044922"
+         y="80.0442123413086"
+         width="27.91267204284668"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect30" />
+      <rect
+         x="9.935209274291992"
+         y="111.04080963134766"
+         width="34.129587173461914"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect31" />
+      <rect
+         x="87.29434204101562"
+         y="110.0442123413086"
+         width="28.909271240234375"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect32" />
+      <rect
+         x="151"
+         y="42.03740692138672"
+         width="74.14030456542969"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect33" />
+      <rect
+         x="151"
+         y="56.03740692138672"
+         width="73.22760009765625"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect34" />
+      <rect
+         x="234.00001525878906"
+         y="355.0306091308594"
+         width="175.10165405273438"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect35" />
+      <rect
+         x="234.00001525878906"
+         y="370.0306091308594"
+         width="175.10165405273438"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect36" />
+      <rect
+         x="579.326171875"
+         y="127.047607421875"
+         width="122.27941131591797"
+         height="20.942188262939453"
+         fill="black"
+         rx="2"
+         id="rect37" />
+      <rect
+         x="465.0974426269531"
+         y="163.0408172607422"
+         width="134.12741088867188"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect38" />
+      <rect
+         x="6.1717376708984375"
+         y="-0.9625911712646484"
+         width="22.613722801208496"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect39" />
+      <rect
+         x="43.193572998046875"
+         y="-0.9625911712646484"
+         width="44.26985168457031"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect40" />
+      <rect
+         x="95.36585235595703"
+         y="-0.9625911712646484"
+         width="38.94489669799805"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect41" />
+      <rect
+         x="143.79408264160156"
+         y="-0.9625911712646484"
+         width="38.41184997558594"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect42" />
+      <rect
+         x="8.543046951293945"
+         y="20.044212341308594"
+         width="14.976194858551025"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect43" />
+      <rect
+         x="50.40773391723633"
+         y="22.037410736083984"
+         width="26.187936782836914"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect44" />
+      <rect
+         x="101.91041564941406"
+         y="22.037410736083984"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect45" />
+      <rect
+         x="142.09335327148438"
+         y="22.037410736083984"
+         width="39.813316345214844"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect46" />
+      <rect
+         x="8.543046951293945"
+         y="50.04420852661133"
+         width="14.913907527923584"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect47" />
+      <rect
+         x="51.48219299316406"
+         y="52.03740692138672"
+         width="25.76580810546875"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect48" />
+      <rect
+         x="101.91041564941406"
+         y="52.03740692138672"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect49" />
+      <rect
+         x="149.9415740966797"
+         y="52.03740692138672"
+         width="24.116878509521484"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect50" />
+      <rect
+         x="8.543046951293945"
+         y="80.0442123413086"
+         width="14.976194858551025"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect51" />
+      <rect
+         x="47.47243881225586"
+         y="82.03740692138672"
+         width="33.05512809753418"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect52" />
+      <rect
+         x="101.91041564941406"
+         y="82.03740692138672"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect53" />
+      <rect
+         x="138.8777618408203"
+         y="82.03740692138672"
+         width="46.55894470214844"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect54" />
+      <rect
+         x="-4"
+         y="107.03741455078125"
+         width="107.00590515136719"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect55" />
+      <rect
+         x="451"
+         y="355.0306091308594"
+         width="149.0032196044922"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect56" />
+      <rect
+         x="451"
+         y="370.0306091308594"
+         width="107.97209167480469"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect57" />
+      <rect
+         x="681.65380859375"
+         y="163.0408172607422"
+         width="102.93380737304688"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect58" />
+      <rect
+         x="11.171735763549805"
+         y="-0.9625911712646484"
+         width="22.613722801208496"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect59" />
+      <rect
+         x="52.19357681274414"
+         y="-0.9625911712646484"
+         width="44.26985168457031"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect60" />
+      <rect
+         x="120.36585998535156"
+         y="-0.9625911712646484"
+         width="38.94489669799805"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect61" />
+      <rect
+         x="3.806244373321533"
+         y="22.037410736083984"
+         width="36.440107345581055"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect62" />
+      <rect
+         x="62.40773010253906"
+         y="22.037410736083984"
+         width="26.187936782836914"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect63" />
+      <rect
+         x="119.9104232788086"
+         y="22.037410736083984"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect64" />
+      <rect
+         x="4.109895706176758"
+         y="52.03740692138672"
+         width="35.82024383544922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect65" />
+      <rect
+         x="63.48219299316406"
+         y="52.03740692138672"
+         width="25.76580810546875"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect66" />
+      <rect
+         x="119.9104232788086"
+         y="52.03740692138672"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect67" />
+      <rect
+         x="4.195540428161621"
+         y="82.03740692138672"
+         width="35.649410247802734"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect68" />
+      <rect
+         x="59.472434997558594"
+         y="82.03740692138672"
+         width="33.05512809753418"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect69" />
+      <rect
+         x="119.9104232788086"
+         y="82.03740692138672"
+         width="24.756389617919922"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect70" />
+      <rect
+         x="-4"
+         y="107.03741455078125"
+         width="123.96746826171875"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect71" />
+      <rect
+         x="642"
+         y="355.0306091308594"
+         width="169.8850860595703"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect72" />
+      <rect
+         x="642"
+         y="370.0306091308594"
+         width="154.2198028564453"
+         height="14.962592124938965"
+         fill="black"
+         rx="2"
+         id="rect73" />
+      <rect
+         x="320.83544921875"
+         y="415.0442199707031"
+         width="218.8075714111328"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect74" />
+      <rect
+         x="51.5828857421875"
+         y="439.04083251953125"
+         width="216.88404846191406"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect75" />
+      <rect
+         x="56.25444412231445"
+         y="454.03741455078125"
+         width="208.24026489257812"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect76" />
+      <rect
+         x="322.416015625"
+         y="439.04083251953125"
+         width="216.19532775878906"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect77" />
+      <rect
+         x="339.21026611328125"
+         y="454.03741455078125"
+         width="181.6429443359375"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect78" />
+      <rect
+         x="583.9526977539062"
+         y="439.04083251953125"
+         width="232.35302734375"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect79" />
+      <rect
+         x="626.4093627929688"
+         y="454.03741455078125"
+         width="147.1813201904297"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect80" />
+      <rect
+         x="384.438720703125"
+         y="499.0442199707031"
+         width="91.60485076904297"
+         height="19.94558811187744"
+         fill="black"
+         rx="2"
+         id="rect81" />
+      <rect
+         x="46.000003814697266"
+         y="521.0408325195312"
+         width="88.63330078125"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect82" />
+      <rect
+         x="46.000003814697266"
+         y="538.0374145507812"
+         width="172.86277770996094"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect83" />
+      <rect
+         x="46.000003814697266"
+         y="553.0374145507812"
+         width="161.13888549804688"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect84" />
+      <rect
+         x="46.000003814697266"
+         y="568.0374145507812"
+         width="123.12061309814453"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect85" />
+      <rect
+         x="46.000003814697266"
+         y="583.0374145507812"
+         width="149.39443969726562"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect86" />
+      <rect
+         x="46.000003814697266"
+         y="601.0374145507812"
+         width="123.08212280273438"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect87" />
+      <rect
+         x="296"
+         y="521.0408325195312"
+         width="173.5188751220703"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect88" />
+      <rect
+         x="296"
+         y="538.0374145507812"
+         width="183.97698974609375"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect89" />
+      <rect
+         x="296"
+         y="553.0374145507812"
+         width="136.51458740234375"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect90" />
+      <rect
+         x="296"
+         y="568.0374145507812"
+         width="120.57907104492188"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect91" />
+      <rect
+         x="296"
+         y="583.0374145507812"
+         width="197.8249969482422"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect92" />
+      <rect
+         x="296"
+         y="601.0374145507812"
+         width="148.3798065185547"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect93" />
+      <rect
+         x="571"
+         y="521.0408325195312"
+         width="143.9050750732422"
+         height="18.948988914489746"
+         fill="black"
+         rx="2"
+         id="rect94" />
+      <rect
+         x="571"
+         y="538.0374145507812"
+         width="170.81581115722656"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect95" />
+      <rect
+         x="571"
+         y="553.0374145507812"
+         width="153.6551971435547"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect96" />
+      <rect
+         x="571"
+         y="568.0374145507812"
+         width="161.6320037841797"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect97" />
+      <rect
+         x="571"
+         y="583.0374145507812"
+         width="157.95680236816406"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect98" />
+      <rect
+         x="571"
+         y="601.0374145507812"
+         width="150.2654571533203"
+         height="17.95238971710205"
+         fill="black"
+         rx="2"
+         id="rect99" />
+    </mask>
+  </defs>
+  <title
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="title99">El índice en Pandas Series y DataFrame</title>
+  <desc
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="desc99">Explicación del índice numérico y por etiqueta en Series y DataFrame de Pandas</desc>
+  <rect
+     width="860"
+     height="660"
+     fill="var(--bg-primary, #ffffff)"
+     rx="12"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect100" />
+  <text
+     x="430"
+     y="36"
+     text-anchor="middle"
+     font-size="18"
+     font-weight="700"
+     fill="var(--text-primary, #111827)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:18px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text100">El Índice en Pandas</text>
+  <text
+     x="430"
+     y="55"
+     text-anchor="middle"
+     font-size="12"
+     fill="var(--text-secondary, #6b7280)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text101">¿Qué es y para qué sirve?</text>
+  <rect
+     x="20"
+     y="68"
+     width="820"
+     height="42"
+     rx="8"
+     fill="#fef9c3"
+     stroke="#fbbf24"
+     stroke-width="1.5"
+     style="fill:rgb(254, 249, 195);stroke:rgb(251, 191, 36);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect101" />
+  <text
+     x="430"
+     y="87"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="600"
+     fill="#92400e"
+     style="fill:rgb(146, 64, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+     id="text102">El índice es la &quot;etiqueta de fila&quot; — identifica cada elemento. Puedes usarlo para acceder, filtrar y alinear datos.</text>
+  <text
+     x="430"
+     y="103"
+     text-anchor="middle"
+     font-size="11"
+     fill="#b45309"
+     style="fill:rgb(180, 83, 9);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text103">Por defecto es numérico (0, 1, 2…), pero puedes asignarle cualquier valor: texto, fechas, etc.</text>
+  <rect
+     x="20"
+     y="122"
+     width="400"
+     height="32"
+     rx="7"
+     fill="#10b981"
+     style="fill:rgb(16, 185, 129);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect103" />
+  <text
+     x="220"
+     y="143"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="700"
+     fill="white"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text104">Pandas Series</text>
+  <rect
+     x="20"
+     y="162"
+     width="190"
+     height="22"
+     rx="5"
+     fill="#d1fae5"
+     style="fill:rgb(209, 250, 229);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect104" />
+  <text
+     x="115"
+     y="177"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="600"
+     fill="#065f46"
+     style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+     id="text105">Índice numérico (default)</text>
+  <g
+     transform="translate(30, 190)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g118">
+    <text
+       x="30"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text106">idx</text>
+    <text
+       x="100"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text107">valor</text>
+    <rect
+       x="0"
+       y="16"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#6ee7b7"
+       stroke="#10b981"
+       stroke-width="1.5"
+       style="fill:rgb(110, 231, 183);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect107" />
+    <rect
+       x="62"
+       y="16"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect108" />
+    <text
+       x="27"
+       y="35"
+       text-anchor="middle"
+       font-size="13"
+       font-weight="700"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text108">0</text>
+    <text
+       x="102"
+       y="35"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text109">100</text>
+    <rect
+       x="0"
+       y="46"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#6ee7b7"
+       stroke="#10b981"
+       stroke-width="1.5"
+       style="fill:rgb(110, 231, 183);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect109" />
+    <rect
+       x="62"
+       y="46"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect110" />
+    <text
+       x="27"
+       y="65"
+       text-anchor="middle"
+       font-size="13"
+       font-weight="700"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text110">1</text>
+    <text
+       x="102"
+       y="65"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text111">200</text>
+    <rect
+       x="0"
+       y="76"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#6ee7b7"
+       stroke="#10b981"
+       stroke-width="1.5"
+       style="fill:rgb(110, 231, 183);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect111" />
+    <rect
+       x="62"
+       y="76"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect112" />
+    <text
+       x="27"
+       y="95"
+       text-anchor="middle"
+       font-size="13"
+       font-weight="700"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text112">2</text>
+    <text
+       x="102"
+       y="95"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text113">300</text>
+    <rect
+       x="0"
+       y="106"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#6ee7b7"
+       stroke="#10b981"
+       stroke-width="1.5"
+       style="fill:rgb(110, 231, 183);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect113" />
+    <rect
+       x="62"
+       y="106"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect114" />
+    <text
+       x="27"
+       y="125"
+       text-anchor="middle"
+       font-size="13"
+       font-weight="700"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text114">3</text>
+    <text
+       x="102"
+       y="125"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text115">400</text>
+    <text
+       x="155"
+       y="55"
+       font-size="10"
+       fill="#059669"
+       style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text116">s[1] → 200</text>
+    <text
+       x="155"
+       y="69"
+       font-size="10"
+       fill="#059669"
+       style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text117">s[2] → 300</text>
+    <line
+       x1="142"
+       y1="60"
+       x2="154"
+       y2="60"
+       stroke="#059669"
+       stroke-width="1.2"
+       style="fill:rgb(0, 0, 0);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line117" />
+    <line
+       x1="142"
+       y1="90"
+       x2="154"
+       y2="74"
+       stroke="#059669"
+       stroke-width="1.2"
+       mask="url(#imagine-text-gaps-9ik43z)"
+       style="fill:rgb(0, 0, 0);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="line118" />
+  </g>
+  <rect
+     x="24"
+     y="350"
+     width="197.62886"
+     height="44"
+     rx="5.8126135"
+     fill="var(--bg-secondary, #f1f5f9)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f1f5f9;stroke-width:1.0782px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect118" />
+  <text
+     x="40"
+     y="366"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text118">s = pd.Series([100,200,300,400])</text>
+  <text
+     x="40"
+     y="381"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text119">s.index → RangeIndex(0..3)</text>
+  <rect
+     x="220"
+     y="162"
+     width="190"
+     height="22"
+     rx="5"
+     fill="#a7f3d0"
+     style="fill:rgb(167, 243, 208);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect119" />
+  <text
+     x="315"
+     y="177"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="600"
+     fill="#065f46"
+     style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+     id="text120">Índice por etiqueta</text>
+  <g
+     transform="translate(228, 190)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g132">
+    <text
+       x="30"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text121">idx</text>
+    <text
+       x="100"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text122">valor</text>
+    <rect
+       x="0"
+       y="16"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#34d399"
+       stroke="#059669"
+       stroke-width="1.5"
+       style="fill:rgb(52, 211, 153);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect122" />
+    <rect
+       x="62"
+       y="16"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect123" />
+    <text
+       x="27"
+       y="35"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="700"
+       fill="#fff"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text123">&quot;lun&quot;</text>
+    <text
+       x="102"
+       y="35"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text124">100</text>
+    <rect
+       x="0"
+       y="46"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#34d399"
+       stroke="#059669"
+       stroke-width="1.5"
+       style="fill:rgb(52, 211, 153);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect124" />
+    <rect
+       x="62"
+       y="46"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect125" />
+    <text
+       x="27"
+       y="65"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="700"
+       fill="#fff"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text125">&quot;mar&quot;</text>
+    <text
+       x="102"
+       y="65"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text126">200</text>
+    <rect
+       x="0"
+       y="76"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#34d399"
+       stroke="#059669"
+       stroke-width="1.5"
+       style="fill:rgb(52, 211, 153);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect126" />
+    <rect
+       x="62"
+       y="76"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect127" />
+    <text
+       x="27"
+       y="95"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="700"
+       fill="#fff"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text127">&quot;mié&quot;</text>
+    <text
+       x="102"
+       y="95"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text128">300</text>
+    <rect
+       x="0"
+       y="106"
+       width="55"
+       height="28"
+       rx="4"
+       fill="#34d399"
+       stroke="#059669"
+       stroke-width="1.5"
+       style="fill:rgb(52, 211, 153);stroke:rgb(5, 150, 105);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect128" />
+    <rect
+       x="62"
+       y="106"
+       width="80"
+       height="28"
+       rx="4"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       style="fill:rgb(236, 253, 245);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect129" />
+    <text
+       x="27"
+       y="125"
+       text-anchor="middle"
+       font-size="11"
+       font-weight="700"
+       fill="#fff"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text129">&quot;jue&quot;</text>
+    <text
+       x="102"
+       y="125"
+       text-anchor="middle"
+       font-size="12"
+       fill="#065f46"
+       style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text130">400</text>
+    <text
+       x="155"
+       y="55"
+       font-size="10"
+       fill="#059669"
+       style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text131">s[&quot;mar&quot;] → 200</text>
+    <text
+       x="155"
+       y="69"
+       font-size="10"
+       fill="#059669"
+       style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text132">s[&quot;mié&quot;] → 300</text>
+  </g>
+  <rect
+     x="228"
+     y="350"
+     width="203.41925"
+     height="44"
+     rx="5.4978175"
+     fill="var(--bg-secondary, #f1f5f9)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f1f5f9;stroke-width:1.0486px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect132" />
+  <text
+     x="238"
+     y="366"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text133">s = pd.Series([100,200,300,400],</text>
+  <text
+     x="238"
+     y="381"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text134">  index=[&quot;lun&quot;,&quot;mar&quot;,&quot;mié&quot;,&quot;jue&quot;])</text>
+  <line
+     x1="430"
+     y1="122"
+     x2="430"
+     y2="410"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1.5"
+     stroke-dasharray="4,3"
+     style="fill:rgb(0, 0, 0);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line134" />
+  <rect
+     x="440"
+     y="122"
+     width="400"
+     height="32"
+     rx="7"
+     fill="#8b5cf6"
+     style="fill:rgb(139, 92, 246);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect134" />
+  <text
+     x="640"
+     y="143"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="700"
+     fill="white"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text135">Pandas DataFrame</text>
+  <rect
+     x="440"
+     y="162"
+     width="185"
+     height="22"
+     rx="5"
+     fill="#ede9fe"
+     style="fill:rgb(237, 233, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect135" />
+  <text
+     x="532"
+     y="177"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="600"
+     fill="#4c1d95"
+     style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+     id="text136">Índice numérico (default)</text>
+  <g
+     transform="translate(445, 190)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g159">
+    <text
+       x="17"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text137">idx</text>
+    <text
+       x="65"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text138">nombre</text>
+    <text
+       x="115"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text139">ventas</text>
+    <text
+       x="163"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text140">ciudad</text>
+    <rect
+       x="0"
+       y="16"
+       width="32"
+       height="28"
+       rx="3"
+       fill="#c4b5fd"
+       stroke="#8b5cf6"
+       stroke-width="1.5"
+       style="fill:rgb(196, 181, 253);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect140" />
+    <rect
+       x="35"
+       y="16"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect141" />
+    <rect
+       x="95"
+       y="16"
+       width="38"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect142" />
+    <rect
+       x="135"
+       y="16"
+       width="55"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect143" />
+    <text
+       x="16"
+       y="35"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="700"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text143">0</text>
+    <text
+       x="64"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text144">Ana</text>
+    <text
+       x="114"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text145">500</text>
+    <text
+       x="162"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text146">Bogotá</text>
+    <rect
+       x="0"
+       y="46"
+       width="32"
+       height="28"
+       rx="3"
+       fill="#c4b5fd"
+       stroke="#8b5cf6"
+       stroke-width="1.5"
+       style="fill:rgb(196, 181, 253);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect146" />
+    <rect
+       x="35"
+       y="46"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect147" />
+    <rect
+       x="95"
+       y="46"
+       width="38"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect148" />
+    <rect
+       x="135"
+       y="46"
+       width="55"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect149" />
+    <text
+       x="16"
+       y="65"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="700"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text149">1</text>
+    <text
+       x="64"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text150">Luis</text>
+    <text
+       x="114"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text151">750</text>
+    <text
+       x="162"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text152">Cali</text>
+    <rect
+       x="0"
+       y="76"
+       width="32"
+       height="28"
+       rx="3"
+       fill="#c4b5fd"
+       stroke="#8b5cf6"
+       stroke-width="1.5"
+       style="fill:rgb(196, 181, 253);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect152" />
+    <rect
+       x="35"
+       y="76"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect153" />
+    <rect
+       x="95"
+       y="76"
+       width="38"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect154" />
+    <rect
+       x="135"
+       y="76"
+       width="55"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect155" />
+    <text
+       x="16"
+       y="95"
+       text-anchor="middle"
+       font-size="12"
+       font-weight="700"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text155">2</text>
+    <text
+       x="64"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text156">María</text>
+    <text
+       x="114"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text157">300</text>
+    <text
+       x="162"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text158">Medellín</text>
+    <text
+       x="0"
+       y="120"
+       font-size="10"
+       fill="#7c3aed"
+       style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text159">df.iloc[1] → fila 1 (Luis)</text>
+  </g>
+  <rect
+     x="445"
+     y="350"
+     width="183"
+     height="44"
+     rx="5"
+     fill="var(--bg-secondary, #f1f5f9)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(241, 245, 249);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect159" />
+  <text
+     x="455"
+     y="366"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text160">df.index → RangeIndex(0, 3)</text>
+  <text
+     x="455"
+     y="381"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text161">df.iloc[0] → fila 0</text>
+  <rect
+     x="632"
+     y="162"
+     width="202"
+     height="22"
+     rx="5"
+     fill="#ddd6fe"
+     style="fill:rgb(221, 214, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect161" />
+  <text
+     x="733"
+     y="177"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="600"
+     fill="#4c1d95"
+     style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+     id="text162">Índice por etiqueta</text>
+  <g
+     transform="translate(636, 190)"
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="g178">
+    <text
+       x="22"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text163">idx</text>
+    <text
+       x="74"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text164">nombre</text>
+    <text
+       x="140"
+       y="12"
+       text-anchor="middle"
+       font-size="10"
+       fill="#6b7280"
+       font-weight="600"
+       style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:600;text-anchor:middle;dominant-baseline:auto"
+       id="text165">ventas</text>
+    <rect
+       x="0"
+       y="16"
+       width="44"
+       height="28"
+       rx="3"
+       fill="#a78bfa"
+       stroke="#7c3aed"
+       stroke-width="1.5"
+       style="fill:rgb(167, 139, 250);stroke:rgb(124, 58, 237);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect165" />
+    <rect
+       x="47"
+       y="16"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect166" />
+    <rect
+       x="107"
+       y="16"
+       width="50"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect167" />
+    <text
+       x="22"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text167">&quot;A01&quot;</text>
+    <text
+       x="76"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text168">Ana</text>
+    <text
+       x="132"
+       y="35"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text169">500</text>
+    <rect
+       x="0"
+       y="46"
+       width="44"
+       height="28"
+       rx="3"
+       fill="#a78bfa"
+       stroke="#7c3aed"
+       stroke-width="1.5"
+       style="fill:rgb(167, 139, 250);stroke:rgb(124, 58, 237);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect169" />
+    <rect
+       x="47"
+       y="46"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect170" />
+    <rect
+       x="107"
+       y="46"
+       width="50"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect171" />
+    <text
+       x="22"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text171">&quot;B02&quot;</text>
+    <text
+       x="76"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text172">Luis</text>
+    <text
+       x="132"
+       y="65"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text173">750</text>
+    <rect
+       x="0"
+       y="76"
+       width="44"
+       height="28"
+       rx="3"
+       fill="#a78bfa"
+       stroke="#7c3aed"
+       stroke-width="1.5"
+       style="fill:rgb(167, 139, 250);stroke:rgb(124, 58, 237);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect173" />
+    <rect
+       x="47"
+       y="76"
+       width="58"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect174" />
+    <rect
+       x="107"
+       y="76"
+       width="50"
+       height="28"
+       rx="3"
+       fill="#f5f3ff"
+       stroke="#8b5cf6"
+       stroke-width="1.2"
+       style="fill:rgb(245, 243, 255);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="rect175" />
+    <text
+       x="22"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       font-weight="700"
+       fill="white"
+       style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+       id="text175">&quot;C03&quot;</text>
+    <text
+       x="76"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text176">María</text>
+    <text
+       x="132"
+       y="95"
+       text-anchor="middle"
+       font-size="10"
+       fill="#4c1d95"
+       style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+       id="text177">300</text>
+    <text
+       x="0"
+       y="120"
+       font-size="10"
+       fill="#7c3aed"
+       style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+       id="text178">df.loc[&quot;B02&quot;] → fila de Luis</text>
+  </g>
+  <rect
+     x="636"
+     y="350"
+     width="198"
+     height="44"
+     rx="5"
+     fill="var(--bg-secondary, #f1f5f9)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(241, 245, 249);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect178" />
+  <text
+     x="646"
+     y="366"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text179">df = df.set_index(&quot;id_cliente&quot;)</text>
+  <text
+     x="646"
+     y="381"
+     font-size="9.5"
+     fill="#475569"
+     font-family="monospace"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text180">df.loc[&quot;B02&quot;] → fila de Luis</text>
+  <rect
+     x="20"
+     y="410"
+     width="820"
+     height="70"
+     rx="8"
+     fill="var(--bg-secondary, #f8fafc)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(248, 250, 252);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect180" />
+  <text
+     x="430"
+     y="430"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="var(--text-primary, #374151)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text181">Cómo acceder según el tipo de índice</text>
+  <rect
+     x="30"
+     y="437"
+     width="260"
+     height="36"
+     rx="6"
+     fill="#fef3c7"
+     stroke="#f59e0b"
+     stroke-width="1.2"
+     style="fill:rgb(254, 243, 199);stroke:rgb(245, 158, 11);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect181" />
+  <text
+     x="160"
+     y="453"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="700"
+     fill="#92400e"
+     style="fill:rgb(146, 64, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text182">.iloc[ ]  — siempre por posición numérica</text>
+  <text
+     x="160"
+     y="467"
+     text-anchor="middle"
+     font-size="10"
+     fill="#b45309"
+     style="fill:rgb(180, 83, 9);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text183">df.iloc[0] → primera fila, sin importar el índice</text>
+  <rect
+     x="300"
+     y="437"
+     width="260"
+     height="36"
+     rx="6"
+     fill="#d1fae5"
+     stroke="#10b981"
+     stroke-width="1.2"
+     style="fill:rgb(209, 250, 229);stroke:rgb(16, 185, 129);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect183" />
+  <text
+     x="430"
+     y="453"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="700"
+     fill="#065f46"
+     style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text184">.loc[ ]  — siempre por etiqueta del índice</text>
+  <text
+     x="430"
+     y="467"
+     text-anchor="middle"
+     font-size="10"
+     fill="#059669"
+     style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text185">df.loc[&quot;B02&quot;] → fila cuyo índice es &quot;B02&quot;</text>
+  <rect
+     x="570"
+     y="437"
+     width="260"
+     height="36"
+     rx="6"
+     fill="#ede9fe"
+     stroke="#8b5cf6"
+     stroke-width="1.2"
+     style="fill:rgb(237, 233, 254);stroke:rgb(139, 92, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect185" />
+  <text
+     x="700"
+     y="453"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="700"
+     fill="#4c1d95"
+     style="fill:rgb(76, 29, 149);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text186">[ ]  — por etiqueta en Series, columna en DF</text>
+  <text
+     x="700"
+     y="467"
+     text-anchor="middle"
+     font-size="10"
+     fill="#7c3aed"
+     style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text187">s[&quot;lun&quot;]  /  df[&quot;ventas&quot;] (columna)</text>
+  <rect
+     x="20"
+     y="494"
+     width="820"
+     height="150"
+     rx="8"
+     fill="var(--bg-secondary, #f1f5f9)"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(241, 245, 249);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect187" />
+  <text
+     x="430"
+     y="514"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="var(--text-primary, #374151)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text188">Resumen clave</text>
+  <text
+     x="50"
+     y="535"
+     font-size="11"
+     font-weight="600"
+     fill="#065f46"
+     style="fill:rgb(6, 95, 70);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:start;dominant-baseline:auto"
+     id="text189">Índice numérico</text>
+  <text
+     x="50"
+     y="551"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text190">• Creado automáticamente: 0, 1, 2…</text>
+  <text
+     x="50"
+     y="566"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text191">• Equivale a la posición en la lista</text>
+  <text
+     x="50"
+     y="581"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text192">• Usa .iloc[] para acceder</text>
+  <text
+     x="50"
+     y="596"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text193">• Útil cuando el orden importa</text>
+  <text
+     x="50"
+     y="614"
+     font-size="10.5"
+     fill="#94a3b8"
+     font-style="italic"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;font-style:italic;text-anchor:start;dominant-baseline:auto"
+     id="text194">ej: temperaturas por hora</text>
+  <line
+     x1="280"
+     y1="505"
+     x2="280"
+     y2="635"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(0, 0, 0);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line194" />
+  <text
+     x="300"
+     y="535"
+     font-size="11"
+     font-weight="600"
+     fill="#059669"
+     style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:start;dominant-baseline:auto"
+     id="text195">Índice por etiqueta (string/fecha)</text>
+  <text
+     x="300"
+     y="551"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text196">• Lo asignas tú: nombres, fechas, IDs…</text>
+  <text
+     x="300"
+     y="566"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text197">• Acceso semántico: s[&quot;lun&quot;]</text>
+  <text
+     x="300"
+     y="581"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text198">• Usa .loc[] para acceder</text>
+  <text
+     x="300"
+     y="596"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text199">• Útil para series temporales o IDs únicos</text>
+  <text
+     x="300"
+     y="614"
+     font-size="10.5"
+     fill="#94a3b8"
+     font-style="italic"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;font-style:italic;text-anchor:start;dominant-baseline:auto"
+     id="text200">ej: ventas por día de la semana</text>
+  <line
+     x1="555"
+     y1="505"
+     x2="555"
+     y2="635"
+     stroke="var(--border, #e2e8f0)"
+     stroke-width="1"
+     style="fill:rgb(0, 0, 0);stroke:color(srgb 0.0431373 0.0431373 0.0431373 / 0.1);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="line200" />
+  <text
+     x="575"
+     y="535"
+     font-size="11"
+     font-weight="600"
+     fill="#7c3aed"
+     style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:600;text-anchor:start;dominant-baseline:auto"
+     id="text201">¿Por qué importa el índice?</text>
+  <text
+     x="575"
+     y="551"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text202">• Alinea datos al hacer operaciones</text>
+  <text
+     x="575"
+     y="566"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text203">• Clave en merge/join de tablas</text>
+  <text
+     x="575"
+     y="581"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text204">• Permite filtros rápidos con .loc[]</text>
+  <text
+     x="575"
+     y="596"
+     font-size="10.5"
+     fill="var(--text-secondary, #475569)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text205">• Sirve de referencia en groupby</text>
+  <text
+     x="575"
+     y="614"
+     font-size="10.5"
+     fill="#94a3b8"
+     font-style="italic"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:400;font-style:italic;text-anchor:start;dominant-baseline:auto"
+     id="text206">ej: s1 + s2 se alinean por índice</text>
+</svg>

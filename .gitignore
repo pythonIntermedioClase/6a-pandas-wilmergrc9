@@ -1,0 +1,8 @@
+# Salidas generadas — no se rastrean en git
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Ambiente virtual
+.venv/
+__pycache__/
+*.pyc
