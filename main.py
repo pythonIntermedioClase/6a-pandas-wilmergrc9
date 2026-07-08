@@ -10,7 +10,7 @@ Sesión 6: Pandas I — Python Intermedio para Análisis de Datos · DIAN 2026
 # línea de código. Nunca dentro de funciones ni distribuidos a lo largo del
 # código. A medida que implementas cada módulo, descomenta el import
 # correspondiente.
-import numpy as np
+#import numpy as np
 import pandas as pd
 from datetime import date
 
@@ -139,11 +139,42 @@ def main():
 
     print("  Hasta luego.")
 
+def probar_acceso_diccionario():
+    declaracion= {"nit":"800234567-0","estado":"Pendiente"}
+    print (declaracion["valor_declarado"])
+    
+def revisar_declaracion (declaracion):
+    declaracion = {
+    "nit": "900123456-1",
+    "razon_social": "Comercializadora Andina S.A.S",
+    "valor_declarado": 4_500_000,
+    "estado": "Presentada",
+    "municipio": "Bogotá",
+
+}
+
+def probar_acceso_serie():
+    serie = pd.Series([100,200,300])
+    print (serie[5])
+
+def explorar_dataframe():
+    datos = {"nit":[109312556,1098534785,900235852,700000000],
+             "razon_social":["PEPE PEREZ","JOSE JAIMES","ABC.SAS","DEF.LTA"],
+             "municipio":["Cúcuta", "Rionegro","Pamplona","Malaga"],
+             "valor_declarado":[1580000,25885000,256355262,2158235]}
+    df= pd.DataFrame(datos)
+    df.columns=df.columns.astype(object)
+    print(df.index)
+    print(df.columns)
+    print(df.shape)
 
 # =============================================================================
 # PUNTO DE ENTRADA
 # =============================================================================
 
-if __name__ == "__main__":
-    main()
 
+if __name__ == "__main__":
+    #probar_acceso_serie()
+    #probar_acceso_diccionario()
+    explorar_dataframe()
+    #main()
