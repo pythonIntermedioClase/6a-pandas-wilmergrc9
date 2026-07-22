@@ -1,6 +1,6 @@
 """
 src/data_loader_solved.py
-Soluciones de referencia para el instructor — NO compartir con estudiantes.
+Soluciones de referencia para el instructor.
 Sesión 6: Pandas I — Python Intermedio para Análisis de Datos · DIAN 2026
 """
 

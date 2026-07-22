@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 930 810"
+   role="img"
+   font-family="system-ui, -apple-system, sans-serif"
+   style=""
+   version="1.1"
+   id="svg146"
+   sodipodi:docname="pandas_metodos_explorar_valores.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs146" />
+  <sodipodi:namedview
+     id="namedview146"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.524208"
+     inkscape:cx="308.6849"
+     inkscape:cy="613.76138"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg146" />
+  <title
+     style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="title1">Métodos para explorar valores en Pandas</title>
+  <rect
+     width="920"
+     height="800"
+     fill="var(--bg-primary,#ffffff)"
+     rx="12"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect1" />
+  <text
+     x="460"
+     y="32"
+     text-anchor="middle"
+     font-size="18"
+     font-weight="700"
+     fill="var(--text-primary,#111827)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:18px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text1">Explorar valores en una columna</text>
+  <text
+     x="460"
+     y="51"
+     text-anchor="middle"
+     font-size="12"
+     fill="var(--text-secondary,#6b7280)"
+     style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text2">unique · nunique · value_counts · duplicated · isin · between y más</text>
+  <rect
+     x="20"
+     y="62"
+     width="880"
+     height="82"
+     rx="8"
+     fill="#f1f5f9"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(241, 245, 249);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect2" />
+  <text
+     x="40"
+     y="80"
+     font-size="11"
+     font-weight="700"
+     fill="var(--text-primary,#374151)"
+     style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+     id="text3">Serie de partida  —  df[&quot;ciudad&quot;]</text>
+  <rect
+     x="40"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect3" />
+  <text
+     x="74"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text4">Bogotá</text>
+  <rect
+     x="112"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect4" />
+  <text
+     x="146"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text5">Medellín</text>
+  <rect
+     x="184"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect5" />
+  <text
+     x="218"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text6">Bogotá</text>
+  <rect
+     x="256"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect6" />
+  <text
+     x="290"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text7">Cali</text>
+  <rect
+     x="328"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect7" />
+  <text
+     x="362"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text8">Bogotá</text>
+  <rect
+     x="400"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect8" />
+  <text
+     x="434"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text9">Medellín</text>
+  <rect
+     x="472"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#fce7f3"
+     stroke="#ec4899"
+     stroke-width="1.5"
+     style="fill:rgb(252, 231, 243);stroke:rgb(236, 72, 153);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect9" />
+  <text
+     x="506"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#9d174d"
+     style="fill:rgb(157, 23, 77);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text10">NaN</text>
+  <rect
+     x="544"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect10" />
+  <text
+     x="578"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text11">Cali</text>
+  <rect
+     x="616"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect11" />
+  <text
+     x="650"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text12">Bogotá</text>
+  <rect
+     x="688"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect12" />
+  <text
+     x="722"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text13">Barranquilla</text>
+  <rect
+     x="760"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#fce7f3"
+     stroke="#ec4899"
+     stroke-width="1.5"
+     style="fill:rgb(252, 231, 243);stroke:rgb(236, 72, 153);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect13" />
+  <text
+     x="794"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#9d174d"
+     style="fill:rgb(157, 23, 77);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text14">NaN</text>
+  <rect
+     x="832"
+     y="86"
+     width="68"
+     height="28"
+     rx="4"
+     fill="#dbeafe"
+     stroke="#3b82f6"
+     stroke-width="1.2"
+     style="fill:rgb(219, 234, 254);stroke:rgb(59, 130, 246);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect14" />
+  <text
+     x="866"
+     y="104"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1e3a8a"
+     style="fill:rgb(30, 58, 138);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text15">Medellín</text>
+  <text
+     x="40"
+     y="136"
+     font-size="9.5"
+     fill="#6b7280"
+     style="fill:rgb(107, 114, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text16">12 filas · 4 ciudades distintas · 2 NaN · Bogotá se repite 4 veces</text>
+  <rect
+     x="20"
+     y="150"
+     width="280"
+     height="148"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect16" />
+  <rect
+     x="20"
+     y="150"
+     width="280"
+     height="28"
+     rx="8"
+     fill="#7c3aed"
+     style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect17" />
+  <rect
+     x="20"
+     y="166"
+     width="280"
+     height="12"
+     fill="#7c3aed"
+     style="fill:rgb(124, 58, 237);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect18" />
+  <text
+     x="160"
+     y="163"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text18">.unique()</text>
+  <text
+     x="160"
+     y="175"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#ddd6fe"
+     style="fill:rgb(221, 214, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text19">¿Qué valores distintos hay?</text>
+  <rect
+     x="30"
+     y="184"
+     width="260"
+     height="52"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect19" />
+  <text
+     x="40"
+     y="199"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text20">df[&quot;ciudad&quot;].unique()</text>
+  <text
+     x="40"
+     y="214"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text21">→ array(['Bogotá', 'Medellín',</text>
+  <text
+     x="40"
+     y="227"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text22">         'Cali', 'Barranquilla', NaN])</text>
+  <text
+     x="30"
+     y="254"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text23">• Devuelve un <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan22">array NumPy</tspan></text>
+  <text
+     x="30"
+     y="267"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text24">• Respeta el <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan23">orden de aparición</tspan></text>
+  <text
+     x="30"
+     y="280"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text25">• Incluye NaN si los hay</text>
+  <text
+     x="30"
+     y="292"
+     font-size="9.5"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text26">→ útil para ver qué valores existen</text>
+  <rect
+     x="316"
+     y="150"
+     width="280"
+     height="148"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect26" />
+  <rect
+     x="316"
+     y="150"
+     width="280"
+     height="28"
+     rx="8"
+     fill="#0891b2"
+     style="fill:rgb(8, 145, 178);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect27" />
+  <rect
+     x="316"
+     y="166"
+     width="280"
+     height="12"
+     fill="#0891b2"
+     style="fill:rgb(8, 145, 178);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect28" />
+  <text
+     x="456"
+     y="163"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text28">.nunique()</text>
+  <text
+     x="456"
+     y="175"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#a5f3fc"
+     style="fill:rgb(165, 243, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text29">¿Cuántos valores distintos hay?</text>
+  <rect
+     x="326"
+     y="184"
+     width="260"
+     height="62"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect29" />
+  <text
+     x="336"
+     y="199"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text30">df[&quot;ciudad&quot;].nunique()</text>
+  <text
+     x="336"
+     y="214"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text31">→ 4</text>
+  <text
+     x="336"
+     y="227"
+     font-size="9"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text32">df[&quot;ciudad&quot;].nunique(dropna=False)</text>
+  <text
+     x="336"
+     y="239"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text33">→ 5  (cuenta NaN como uno más)</text>
+  <text
+     x="326"
+     y="254"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text34">• Devuelve un <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan33">número entero</tspan></text>
+  <text
+     x="326"
+     y="267"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text35">• Por defecto <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan34">ignora NaN</tspan></text>
+  <text
+     x="326"
+     y="280"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text36">• dropna=False para incluirlos</text>
+  <text
+     x="326"
+     y="292"
+     font-size="9.5"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text37">→ útil para saber la cardinalidad</text>
+  <rect
+     x="612"
+     y="150"
+     width="288"
+     height="148"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect37" />
+  <rect
+     x="612"
+     y="150"
+     width="288"
+     height="28"
+     rx="8"
+     fill="#059669"
+     style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect38" />
+  <rect
+     x="612"
+     y="166"
+     width="288"
+     height="12"
+     fill="#059669"
+     style="fill:rgb(5, 150, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect39" />
+  <text
+     x="756"
+     y="163"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text39">.value_counts()</text>
+  <text
+     x="756"
+     y="175"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#a7f3d0"
+     style="fill:rgb(167, 243, 208);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text40">¿Cuántas veces aparece cada valor?</text>
+  <rect
+     x="622"
+     y="184"
+     width="268"
+     height="72"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect40" />
+  <text
+     x="632"
+     y="199"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text41">df[&quot;ciudad&quot;].value_counts()</text>
+  <text
+     x="632"
+     y="213"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text42">Bogotá          4</text>
+  <text
+     x="632"
+     y="225"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text43">Medellín        3</text>
+  <text
+     x="632"
+     y="237"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text44">Cali            2</text>
+  <text
+     x="632"
+     y="249"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text45">Barranquilla    1</text>
+  <text
+     x="622"
+     y="268"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text46">• Ordena de <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan45">mayor a menor</tspan></text>
+  <text
+     x="622"
+     y="280"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text47">• normalize=True → porcentajes</text>
+  <text
+     x="622"
+     y="292"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text48">• dropna=False → incluye NaN</text>
+  <rect
+     x="20"
+     y="310"
+     width="880"
+     height="30"
+     rx="6"
+     fill="#064e3b"
+     style="fill:rgb(6, 78, 59);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect48" />
+  <text
+     x="40"
+     y="329"
+     font-size="9.5"
+     fill="#6ee7b7"
+     font-family="monospace"
+     style="fill:rgb(110, 231, 183);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text49">value_counts(normalize=False,  sort=True,  ascending=False,  dropna=True,  bins=None)</text>
+  <text
+     x="550"
+     y="329"
+     font-size="9"
+     fill="#34d399"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text50">← parámetros más usados</text>
+  <rect
+     x="20"
+     y="352"
+     width="420"
+     height="168"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect50" />
+  <rect
+     x="20"
+     y="352"
+     width="420"
+     height="28"
+     rx="8"
+     fill="#dc2626"
+     style="fill:rgb(220, 38, 38);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect51" />
+  <rect
+     x="20"
+     y="368"
+     width="420"
+     height="12"
+     fill="#dc2626"
+     style="fill:rgb(220, 38, 38);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect52" />
+  <text
+     x="230.65608"
+     y="364.09531"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="color:#0b0b0b;font-weight:700;font-size:12px;font-family:monospace;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text52">.duplicated()</text>
+  <text
+     x="230.65608"
+     y="377.06354"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#fecaca"
+     style="color:#0b0b0b;font-weight:400;font-size:9.5px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#fecaca;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text53">¿Qué filas son duplicadas?</text>
+  <g
+     transform="translate(25.407451,383.40745)"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g78">
+    <rect
+       x="0"
+       y="0"
+       width="54"
+       height="20"
+       rx="3"
+       fill="#374151"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#374151;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect53" />
+    <text
+       x="27"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="white"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text54">ciudad</text>
+    <rect
+       x="58"
+       y="0"
+       width="80"
+       height="20"
+       rx="3"
+       fill="#374151"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#374151;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect54" />
+    <text
+       x="98"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="white"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text55">.duplicated()</text>
+    <rect
+       x="142"
+       y="0"
+       width="100"
+       height="20"
+       rx="3"
+       fill="#374151"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#374151;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect55" />
+    <text
+       x="192"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="white"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text56">keep=&quot;first&quot; (def)</text>
+    <rect
+       x="246"
+       y="0"
+       width="90"
+       height="20"
+       rx="3"
+       fill="#374151"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#374151;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect56" />
+    <text
+       x="291"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="white"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text57">keep=&quot;last&quot;</text>
+    <rect
+       x="340"
+       y="0"
+       width="70"
+       height="20"
+       rx="3"
+       fill="#374151"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#374151;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect57" />
+    <text
+       x="375"
+       y="14"
+       text-anchor="middle"
+       font-size="9"
+       fill="white"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text58">keep=False</text>
+    <rect
+       x="0"
+       y="22"
+       width="54"
+       height="18"
+       rx="2"
+       fill="#dbeafe"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#dbeafe;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect58" />
+    <text
+       x="27"
+       y="35"
+       text-anchor="middle"
+       font-size="9"
+       fill="#1e3a8a"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#1e3a8a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text59">Bogotá</text>
+    <rect
+       x="58"
+       y="22"
+       width="80"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect59" />
+    <text
+       x="98"
+       y="35"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text60">False</text>
+    <rect
+       x="142"
+       y="22"
+       width="100"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect60" />
+    <text
+       x="192"
+       y="35"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text61">False ← 1ª vez</text>
+    <rect
+       x="246"
+       y="22"
+       width="90"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect61" />
+    <text
+       x="291"
+       y="35"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text62">True</text>
+    <rect
+       x="340"
+       y="22"
+       width="70"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect62" />
+    <text
+       x="375"
+       y="35"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text63">True</text>
+    <rect
+       x="0"
+       y="42"
+       width="54"
+       height="18"
+       rx="2"
+       fill="#dbeafe"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#dbeafe;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect63" />
+    <text
+       x="27"
+       y="55"
+       text-anchor="middle"
+       font-size="9"
+       fill="#1e3a8a"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#1e3a8a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text64">Medellín</text>
+    <rect
+       x="58"
+       y="42"
+       width="80"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect64" />
+    <text
+       x="98"
+       y="55"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text65">False</text>
+    <rect
+       x="142"
+       y="42"
+       width="100"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect65" />
+    <text
+       x="192"
+       y="55"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text66">False</text>
+    <rect
+       x="246"
+       y="42"
+       width="90"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect66" />
+    <text
+       x="291"
+       y="55"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text67">True</text>
+    <rect
+       x="340"
+       y="42"
+       width="70"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect67" />
+    <text
+       x="375"
+       y="55"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text68">True</text>
+    <rect
+       x="0"
+       y="62"
+       width="54"
+       height="18"
+       rx="2"
+       fill="#dbeafe"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#dbeafe;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect68" />
+    <text
+       x="27"
+       y="75"
+       text-anchor="middle"
+       font-size="9"
+       fill="#1e3a8a"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#1e3a8a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text69">Bogotá</text>
+    <rect
+       x="58"
+       y="62"
+       width="80"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect69" />
+    <text
+       x="98"
+       y="75"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text70">True</text>
+    <rect
+       x="142"
+       y="62"
+       width="100"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect70" />
+    <text
+       x="192"
+       y="75"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text71">True ← repite</text>
+    <rect
+       x="246"
+       y="62"
+       width="90"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect71" />
+    <text
+       x="291"
+       y="75"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text72">False</text>
+    <rect
+       x="340"
+       y="62"
+       width="70"
+       height="18"
+       rx="2"
+       fill="#fee2e2"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#fee2e2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect72" />
+    <text
+       x="375"
+       y="75"
+       text-anchor="middle"
+       font-size="9"
+       fill="#991b1b"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#991b1b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text73">True</text>
+    <rect
+       x="0"
+       y="82"
+       width="54"
+       height="18"
+       rx="2"
+       fill="#dbeafe"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#dbeafe;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect73" />
+    <text
+       x="27"
+       y="95"
+       text-anchor="middle"
+       font-size="9"
+       fill="#1e3a8a"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#1e3a8a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text74">Barranquilla</text>
+    <rect
+       x="58"
+       y="82"
+       width="80"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect74" />
+    <text
+       x="98"
+       y="95"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text75">False</text>
+    <rect
+       x="142"
+       y="82"
+       width="100"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect75" />
+    <text
+       x="192"
+       y="95"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text76">False</text>
+    <rect
+       x="246"
+       y="82"
+       width="90"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect76" />
+    <text
+       x="291"
+       y="95"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text77">False</text>
+    <rect
+       x="340"
+       y="82"
+       width="70"
+       height="18"
+       rx="2"
+       fill="#f0fdf4"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#f0fdf4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect77" />
+    <text
+       x="375"
+       y="95"
+       text-anchor="middle"
+       font-size="9"
+       fill="#15803d"
+       style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#15803d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text78">False</text>
+  </g>
+  <text
+     x="30"
+     y="500"
+     font-size="9.5"
+     fill="#475569"
+     style="color:#0b0b0b;font-weight:400;font-size:9.5px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#475569;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text79">Devuelve una Series booleana. Usa .sum() para contar duplicados: <tspan
+   font-family="monospace"
+   fill="#dc2626"
+   style="color:#0b0b0b;font-weight:400;font-size:9.5px;font-family:monospace;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#dc2626;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+   id="tspan78" /></text>
+  <rect
+     x="452"
+     y="352"
+     width="448"
+     height="168"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect79" />
+  <rect
+     x="452"
+     y="352"
+     width="448"
+     height="28"
+     rx="8"
+     fill="#d97706"
+     style="fill:rgb(217, 119, 6);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect80" />
+  <rect
+     x="452"
+     y="368"
+     width="448"
+     height="12"
+     fill="#d97706"
+     style="fill:rgb(217, 119, 6);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect81" />
+  <text
+     x="677.96826"
+     y="362.12704"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="color:#0b0b0b;font-weight:700;font-size:12px;font-family:monospace;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text81">.drop_duplicates()</text>
+  <text
+     x="675.34393"
+     y="375.75137"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#fef3c7"
+     style="color:#0b0b0b;font-weight:400;font-size:9.5px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#fef3c7;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text82">Eliminar filas duplicadas</text>
+  <rect
+     x="462"
+     y="388"
+     width="200"
+     height="100"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect82" />
+  <text
+     x="472"
+     y="403"
+     font-size="9"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text83">Antes (df):</text>
+  <text
+     x="472"
+     y="416"
+     font-size="9"
+     fill="#f87171"
+     font-family="monospace"
+     style="fill:rgb(248, 113, 113);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text84">0  Bogotá</text>
+  <text
+     x="472"
+     y="428"
+     font-size="9"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text85">1  Medellín</text>
+  <text
+     x="472"
+     y="440"
+     font-size="9"
+     fill="#f87171"
+     font-family="monospace"
+     style="fill:rgb(248, 113, 113);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text86">2  Bogotá   ← dup</text>
+  <text
+     x="472"
+     y="452"
+     font-size="9"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text87">3  Cali</text>
+  <text
+     x="472"
+     y="464"
+     font-size="9"
+     fill="#f87171"
+     font-family="monospace"
+     style="fill:rgb(248, 113, 113);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text88">4  Bogotá   ← dup</text>
+  <text
+     x="472"
+     y="476"
+     font-size="9"
+     fill="#f87171"
+     font-family="monospace"
+     style="fill:rgb(248, 113, 113);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text89">5  Medellín ← dup</text>
+  <text
+     x="668"
+     y="430"
+     font-size="18"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text90">→</text>
+  <rect
+     x="688"
+     y="388"
+     width="200"
+     height="100"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect90" />
+  <text
+     x="698"
+     y="403"
+     font-size="9"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text91">Después (.drop_duplicates()):</text>
+  <text
+     x="698"
+     y="416"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text92">0  Bogotá</text>
+  <text
+     x="698"
+     y="428"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text93">1  Medellín</text>
+  <text
+     x="698"
+     y="440"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text94">3  Cali</text>
+  <text
+     x="698"
+     y="456"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text95">↑ conserva el índice original</text>
+  <text
+     x="462"
+     y="504"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text96">keep=&quot;first&quot; (default) · keep=&quot;last&quot; · keep=False (elimina <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan95">todas</tspan> las repeticiones)</text>
+  <text
+     x="462"
+     y="516"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text97">subset=[&quot;col1&quot;,&quot;col2&quot;] → detecta duplicados mirando solo esas columnas</text>
+  <rect
+     x="20"
+     y="532"
+     width="284"
+     height="178"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect97" />
+  <rect
+     x="20"
+     y="532"
+     width="284"
+     height="28"
+     rx="8"
+     fill="#1e40af"
+     style="fill:rgb(30, 64, 175);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect98" />
+  <rect
+     x="20"
+     y="548"
+     width="284"
+     height="12"
+     fill="#1e40af"
+     style="fill:rgb(30, 64, 175);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect99" />
+  <text
+     x="162"
+     y="546"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text99">.isin([lista])</text>
+  <text
+     x="162"
+     y="557"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#bfdbfe"
+     style="fill:rgb(191, 219, 254);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text100">¿El valor está en esta lista?</text>
+  <rect
+     x="30"
+     y="568"
+     width="264"
+     height="64"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect100" />
+  <text
+     x="40"
+     y="583"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text101">ciudades = [&quot;Bogotá&quot;, &quot;Cali&quot;]</text>
+  <text
+     x="40"
+     y="597"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text102">df[&quot;ciudad&quot;].isin(ciudades)</text>
+  <text
+     x="40"
+     y="611"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text103">→ [True, False, True, True, ...]</text>
+  <text
+     x="40"
+     y="623"
+     font-size="9"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text104">   Bogotá=T, Medellín=F, Cali=T</text>
+  <text
+     x="30"
+     y="646"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text105">Devuelve booleano por fila.</text>
+  <text
+     x="30"
+     y="659"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text106">Úsalo para filtrar:</text>
+  <rect
+     x="30"
+     y="664"
+     width="264"
+     height="44.560783"
+     rx="5"
+     fill="#1e293b"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#1e293b;stroke:none;stroke-width:1.08289px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect106" />
+  <text
+     x="40"
+     y="679"
+     font-size="9.5"
+     fill="#38bdf8"
+     font-family="monospace"
+     style="fill:rgb(56, 189, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text107">df[df[&quot;ciudad&quot;].isin([&quot;Bogotá&quot;,&quot;Cali&quot;])]</text>
+  <text
+     x="40"
+     y="693"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text108">→ solo filas de Bogotá o Cali</text>
+  <text
+     x="40"
+     y="705"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text109">~df[&quot;ciudad&quot;].isin([...]) → las que NO están</text>
+  <rect
+     x="316"
+     y="532"
+     width="284"
+     height="178"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect109" />
+  <rect
+     x="316"
+     y="532"
+     width="284"
+     height="28"
+     rx="8"
+     fill="#15803d"
+     style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect110" />
+  <rect
+     x="316"
+     y="548"
+     width="284"
+     height="12"
+     fill="#15803d"
+     style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect111" />
+  <text
+     x="458"
+     y="546"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text111">.between(min, max)</text>
+  <text
+     x="458"
+     y="557"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#bbf7d0"
+     style="fill:rgb(187, 247, 208);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text112">¿El valor está en ese rango?</text>
+  <rect
+     x="326"
+     y="568"
+     width="264"
+     height="64"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect112" />
+  <text
+     x="336"
+     y="583"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text113">df[&quot;edad&quot;].between(20, 35)</text>
+  <text
+     x="336"
+     y="597"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text114">→ True si 20 ≤ edad ≤ 35</text>
+  <text
+     x="336"
+     y="611"
+     font-size="9"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text115">→ False si edad &lt; 20 o edad &gt; 35</text>
+  <text
+     x="336"
+     y="623"
+     font-size="9"
+     fill="#94a3b8"
+     font-family="monospace"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text116">→ NaN si el valor es nulo</text>
+  <text
+     x="326"
+     y="646"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text117">Equivale a  <tspan
+   font-family="monospace"
+   fill="#15803d"
+   style="fill:rgb(21, 128, 61);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+   id="tspan116">(col &gt;= 20) &amp; (col &lt;= 35)</tspan></text>
+  <text
+     x="326"
+     y="659"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text118">inclusive=&quot;both&quot; / &quot;left&quot; / &quot;right&quot; / &quot;neither&quot;</text>
+  <rect
+     x="326"
+     y="664"
+     width="264"
+     height="43.904705"
+     rx="5"
+     fill="#1e293b"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#1e293b;stroke:none;stroke-width:1.07489px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect118" />
+  <text
+     x="336"
+     y="679"
+     font-size="9.5"
+     fill="#38bdf8"
+     font-family="monospace"
+     style="fill:rgb(56, 189, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text119">df[df[&quot;edad&quot;].between(20, 35)]</text>
+  <text
+     x="336"
+     y="693"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text120">→ solo personas entre 20 y 35 años</text>
+  <text
+     x="336"
+     y="705"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text121">Funciona con fechas también</text>
+  <rect
+     x="612"
+     y="532"
+     width="288"
+     height="178"
+     rx="8"
+     fill="var(--bg-secondary,#f8fafc)"
+     stroke="#e2e8f0"
+     stroke-width="1.2"
+     style="fill:rgb(248, 250, 252);stroke:rgb(226, 232, 240);color:rgb(11, 11, 11);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect121" />
+  <rect
+     x="612"
+     y="532"
+     width="288"
+     height="28"
+     rx="8"
+     fill="#be185d"
+     style="fill:rgb(190, 24, 93);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect122" />
+  <rect
+     x="612"
+     y="548"
+     width="288"
+     height="12"
+     fill="#be185d"
+     style="fill:rgb(190, 24, 93);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect123" />
+  <text
+     x="756"
+     y="546"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="700"
+     fill="white"
+     font-family="monospace"
+     style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text123">.clip(min, max)</text>
+  <text
+     x="756"
+     y="557"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#fbcfe8"
+     style="fill:rgb(251, 207, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto"
+     id="text124">Recortar valores fuera de rango</text>
+  <rect
+     x="622"
+     y="568"
+     width="268"
+     height="76"
+     rx="5"
+     fill="#1e1b4b"
+     style="fill:rgb(30, 27, 75);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect124" />
+  <text
+     x="632"
+     y="583"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text125">df[&quot;ventas&quot;].clip(0, 5000000)</text>
+  <text
+     x="632"
+     y="599"
+     font-size="9"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text126">Antes:    -500  /  200  /  9 000 000</text>
+  <text
+     x="632"
+     y="613"
+     font-size="9"
+     fill="#34d399"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text127">Después:     0  /  200  /  5 000 000</text>
+  <text
+     x="632"
+     y="627"
+     font-size="9"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text128">↑ valores &lt;0 → 0   ↑ valores &gt;5M → 5M</text>
+  <text
+     x="632"
+     y="640"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text129">No elimina filas, solo ajusta el valor</text>
+  <text
+     x="622"
+     y="658"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text130">Ideal para <tspan
+   font-weight="700"
+   style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:700;text-anchor:start;dominant-baseline:auto"
+   id="tspan129">limpiar outliers</tspan> sin perder filas.</text>
+  <text
+     x="622"
+     y="671"
+     font-size="9.5"
+     fill="#475569"
+     style="fill:rgb(71, 85, 105);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text131">lower=None → sin límite inferior.</text>
+  <rect
+     x="622"
+     y="676"
+     width="268"
+     height="31.904705"
+     rx="5"
+     fill="#1e293b"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#1e293b;stroke:none;stroke-width:1.10775px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect131" />
+  <text
+     x="632"
+     y="691"
+     font-size="9.5"
+     fill="#38bdf8"
+     font-family="monospace"
+     style="fill:rgb(56, 189, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text132">df[&quot;edad&quot;].clip(lower=0)   # sin negativos</text>
+  <text
+     x="632"
+     y="702"
+     font-size="9.5"
+     fill="#38bdf8"
+     font-family="monospace"
+     style="fill:rgb(56, 189, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text133">df[&quot;nota&quot;].clip(0, 10)     # notas 0-10</text>
+  <rect
+     x="20"
+     y="724"
+     width="880"
+     height="62"
+     rx="8"
+     fill="#0f172a"
+     style="fill:rgb(15, 23, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="rect133" />
+  <text
+     x="460"
+     y="742"
+     text-anchor="middle"
+     font-size="10.5"
+     font-weight="700"
+     fill="#94a3b8"
+     style="fill:rgb(148, 163, 184);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:10.5px;font-weight:700;text-anchor:middle;dominant-baseline:auto"
+     id="text134">Cuándo usar cada método</text>
+  <text
+     x="40"
+     y="760"
+     font-size="9.5"
+     fill="#a5b4fc"
+     font-family="monospace"
+     style="fill:rgb(165, 180, 252);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text135">.unique()</text>
+  <text
+     x="120"
+     y="760"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text136">→ ver qué valores distintos existen</text>
+  <text
+     x="40"
+     y="775"
+     font-size="9.5"
+     fill="#38bdf8"
+     font-family="monospace"
+     style="fill:rgb(56, 189, 248);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text137">.nunique()</text>
+  <text
+     x="120"
+     y="775"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text138">→ contar cuántos son</text>
+  <text
+     x="290"
+     y="760"
+     font-size="9.5"
+     fill="#34d399"
+     font-family="monospace"
+     style="fill:rgb(52, 211, 153);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text139">.value_counts()</text>
+  <text
+     x="400"
+     y="760"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text140">→ frecuencia de cada valor</text>
+  <text
+     x="290"
+     y="775"
+     font-size="9.5"
+     fill="#f87171"
+     font-family="monospace"
+     style="fill:rgb(248, 113, 113);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text141">.duplicated()</text>
+  <text
+     x="400"
+     y="775"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text142">→ detectar filas repetidas</text>
+  <text
+     x="560"
+     y="760"
+     font-size="9.5"
+     fill="#fbbf24"
+     font-family="monospace"
+     style="fill:rgb(251, 191, 36);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text143">.drop_duplicates()</text>
+  <text
+     x="690"
+     y="760"
+     font-size="9"
+     fill="#64748b"
+     style="fill:rgb(100, 116, 139);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:system-ui, -apple-system, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text144">→ eliminar duplicados</text>
+  <text
+     x="560"
+     y="775"
+     font-size="9.5"
+     fill="#f472b6"
+     font-family="monospace"
+     style="fill:rgb(244, 114, 182);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:9.5px;font-weight:400;text-anchor:start;dominant-baseline:auto"
+     id="text145">.isin() / .between() / .clip()</text>
+  <text
+     x="744.45453"
+     y="775"
+     font-size="9"
+     fill="#64748b"
+     style="color:#0b0b0b;font-weight:400;font-size:9px;font-family:system-ui, '-apple-system', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#64748b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text146">→ filtrar o acotar valores</text>
+</svg>
