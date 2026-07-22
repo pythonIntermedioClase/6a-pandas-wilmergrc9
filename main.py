@@ -13,12 +13,15 @@ Sesión 6: Pandas I — Python Intermedio para Análisis de Datos · DIAN 2026
 #import numpy as np
 import pandas as pd
 from datetime import date
+from src.data_loader import cargar_declaraciones
+from src.data_loader import inspeccionar_datos
+from src.data_loader import validar_nulos
 
 # Sección 3:
 # from src.data_loader import cargar_declaraciones
 #
 # Sección 4 — agrega las dos funciones nuevas al import de data_loader:
-# from src.data_loader import cargar_declaraciones, inspeccionar_datos, validar_nulos
+#from src.data_loader import cargar_declaraciones, inspeccionar_datos, validar_nulos
 #
 # Sección 5:
 # from src.data_transformer import clasificar_por_valor, agregar_identificador_periodo, preparar_columnas_salida
@@ -93,9 +96,9 @@ def main():
         # Completa los espacios marcados con ___ y ejecuta.
         # -----------------------------------------------------------------
         if opcion == "1":
-            # df = cargar_declaraciones(___)
-            # print(f"Filas cargadas: {___}")
-            pass
+            df = cargar_declaraciones(RUTA_DATOS)
+            print(f"Filas cargadas: {df.shape}")
+            #pass
 
         # -----------------------------------------------------------------
         # OPCIÓN 2: INSPECCIÓN
@@ -105,7 +108,12 @@ def main():
         # Funciones disponibles: inspeccionar_datos(), validar_nulos()
         # -----------------------------------------------------------------
         elif opcion == "2":
-            pass
+            if df is None:
+                print("Primero carga los datos con la opción 1.")
+            else:
+                inspeccionar_datos(df)
+                validar_nulos(df, COLUMNAS_CRITICAS)
+            #pass
 
         # -----------------------------------------------------------------
         # OPCIÓN 3: TRANSFORMACIÓN
@@ -182,6 +190,16 @@ def construir_dataframe(lista_declaraciones):
     return df
     
 
+def probar_carga_archivo():
+    df = pd.read_csv("data/inputs/archivo_inexistente.csv")
+
+def probar_atributo_shape():
+    df = pd.read_csv("data/inputs/declaraciones_iva_2025.csv")
+    print(df.shape)
+    #print(df.shape()) genera error los dobles parentesis "Tupla is no callable"
+
+
+
 # =============================================================================
 # PUNTO DE ENTRADA
 # =============================================================================
@@ -198,10 +216,32 @@ if __name__ == "__main__":
     #valores = [4_500_000, 12_300_000, 2_100_000, 8_750_000, 15_200_000]
     #analizar_serie(nits, valores)
 
-    declaraciones = [
-    {"nit": "900111222-0", "razon_social": "Empresa A", "valor_declarado": 4_500_000},
-    {"nit": "800333444-5", "razon_social": "Empresa B", "valor_declarado": 12_300_000},
-    {"nit": "700555666-1", "razon_social": "Empresa C", "valor_declarado": 2_100_000},
-    ]
-    construir_dataframe(declaraciones)
-    #main()
+    #declaraciones = [
+    #{"nit": "900111222-0", "razon_social": "Empresa A", "valor_declarado": 4_500_000},
+    #{"nit": "800333444-5", "razon_social": "Empresa B", "valor_declarado": 12_300_000},
+    #{"nit": "700555666-1", "razon_social": "Empresa C", "valor_declarado": 2_100_000},
+    #]
+    #construir_dataframe(declaraciones)
+
+    #probar_carga_archivo()
+
+    #df = cargar_declaraciones("data/inputs/declaraciones_iva_2025.csv")
+    #print(df.shape)
+    #print(df.head())
+
+    #df_completo = cargar_declaraciones("data/inputs/declaraciones_iva_2025.csv")
+    #df_reducido = cargar_declaraciones(
+     #   "data/inputs/declaraciones_iva_2025.csv",
+      #  columnas=["nit", "valor_declarado", "estado"],
+    #)
+    #print("Completo:", df_completo.shape)
+    #print("Reducido:", df_reducido.shape)
+    #print("Tipo de nit:", df_completo["nit"].dtype)  # → object
+
+    #probar_atributo_shape()
+
+    #df = cargar_declaraciones("data/inputs/declaraciones_iva_2025.csv")
+    #inspeccionar_datos(df)
+    #validar_nulos(df, ["nit", "valor_declarado", "estado"])
+
+    main()

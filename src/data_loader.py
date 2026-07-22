@@ -48,7 +48,14 @@ def inspeccionar_datos(df):
     Returns:
         None
     """
-    pass
+    #pass
+    #print (f"Dimensiones: {df.shape}")
+    print (f"Tipos de dato: {df.dtypes}")
+    print (f"Nulos por Columna: {df.isnull().sum()}")
+    print (f"Total de celdas vacias: {df.isnull().sum().sum()}")
+    print (f"Filas Duplicadas: {df.duplicated().sum()}")
+    print (df.nunique())
+    print (df.value_counts())
 
 
 def validar_nulos(df, columnas_criticas):
@@ -71,7 +78,13 @@ def validar_nulos(df, columnas_criticas):
     # TODO: Recorre columnas_criticas con un ciclo for.
     # Para cada columna, calcula si hay algún valor faltante y si lo hay imprime el nombre de la columna 
     # y la cantidad de nulos encontrados.
-    pass
+    #pass
+    for columna in columnas_criticas:
+        nulos = df[columna].isnull().sum()
+        if nulos > 0:
+            print(f"⚠️  {columna}: {nulos} nulos")
+        else:
+            print(f"✓ {columna}: sin nulos")
 
 
 # =============================================================================
