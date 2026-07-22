@@ -1,0 +1,21 @@
+nit,razon_social,municipio,codigo_municipio,periodo,valor_declarado,valor_pagado,estado,actividad_economica
+900123456-1,Comercializadora Andina S.A.S,Bogotá,11001,202401,4500000,4500000,Presentada,4711
+800234567-0,Distribuidora del Valle Ltda,Cali,76001,202401,12300000,12300000,Presentada,4641
+700345678-9,Inversiones Ríos y Ríos S.A,Medellín,05001,202401,2100000,0,Pendiente,6810
+600456789-8,Ferretería Industrial del Norte,Barranquilla,08001,202401,8750000,8750000,Presentada,4752
+500567890-7,Agroindustrias Sabana S.A.S,Bogotá,11001,202401,15200000,15200000,Presentada,0111
+400678901-6,Tecnología Empresarial del Sur,Bucaramanga,68001,202401,3400000,0,Pendiente,6201
+300789012-5,Constructora Panorama Ltda,Bogotá,11001,202401,22000000,22000000,Presentada,4111
+200890123-4,Transportes del Pacífico S.A,Cali,76001,202401,1200000,0,Extemporánea,4923
+100901234-3,Servicios Contables Asociados,Medellín,05001,202401,5800000,5800000,Presentada,6920
+900012345-2,Productos Lácteos Andinos S.A,Manizales,17001,202401,9100000,9100000,Presentada,1051
+800123456-1,Editorial Estudiantil del País,Bogotá,11001,202401,4100000,4100000,Presentada,5811
+700234567-0,Seguros y Finanzas S.A.S,Bogotá,11001,202401,18500000,18500000,Presentada,6511
+600345678-9,Industria Textil del Centro,Pereira,66001,202401,6200000,0,Pendiente,1311
+500456789-8,Alimentos Procesados del Llano,Villavicencio,50001,202401,2900000,2900000,Presentada,1020
+400567890-7,Consultoría Tributaria Andina,Bogotá,11001,202401,11400000,11400000,Presentada,6920
+300678901-6,Distribuidora Cafés del Sur,Pasto,52001,202401,850000,0,Extemporánea,4711
+200789012-5,Minería y Recursos del Norte,Cúcuta,54001,202401,31200000,31200000,Presentada,0892
+100890123-4,Hoteles y Turismo del Caribe,Cartagena,13001,202401,7600000,7600000,Presentada,5511
+900901234-3,Importadora de Partes Automotriz,Bogotá,11001,202401,4300000,4300000,Presentada,4530
+800012345-2,Clínica del Oriente S.A.S,Bucaramanga,68001,202401,9800000,0,Pendiente,8610

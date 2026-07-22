@@ -26,10 +26,10 @@ def exportar_csv(df, carpeta, nombre_base):
         exportar_csv(df, "resultados", "declaraciones_clasificadas")
         # Genera: resultados/declaraciones_clasificadas_20240131.csv
     """
-    # TODO: Genera la fecha con date.today().strftime("%Y%m%d").
-    # Construye el nombre del archivo: f"{nombre_base}_{fecha_hoy}.csv"
-    # Construye la ruta completa: f"{carpeta}/{nombre_archivo}"
-    # Llama a df.to_csv() con index=False.
+    # TODO: Genera la fecha
+    # Construye el nombre del archivo
+    # Construye la ruta completa
+    # Exporta el resultado
     pass
 
 
@@ -54,11 +54,6 @@ def exportar_excel_por_categoria(df, carpeta, nombre_base, columna_categoria):
         exportar_excel_por_categoria(df, "resultados", "declaraciones", "nivel_riesgo")
         # Genera hojas: Todos, Alto, Medio, Bajo
     """
-    # TODO: Genera la fecha y construye la ruta del archivo Excel.
-    # Usa pd.ExcelWriter con engine="openpyxl" dentro de un bloque with.
-    # Escribe la hoja "Todos" con el DataFrame completo.
-    # Obtén los valores únicos de columna_categoria con df[columna_categoria].unique().
-    # Para cada valor único, filtra el DataFrame y escribe una hoja con ese nombre.
     pass
 
 

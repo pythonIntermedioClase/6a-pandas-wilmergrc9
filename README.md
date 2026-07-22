@@ -1,4 +1,4 @@
-# Sesión 6: Pandas I — Declaraciones IVA
+# Sesión 6 y 7: Pandas I — Declaraciones IVA
 
 Proyecto de práctica del curso Python Intermedio para Análisis de Datos · DIAN 2026.
 
@@ -79,7 +79,7 @@ El proyecto sigue el patrón Extract–Transform–Load:
 
 `main.py` no hace ninguna de esas tres cosas: solo las coordina en secuencia.
 
-# Sesión 6-7-8: Pandas
+# Sesión 6-7: Pandas
 **Diccionarios, carga, inspección, transformación básica y exportación**
 
 ---
@@ -113,7 +113,7 @@ Los archivos en `src/` ya existen con las firmas de las funciones y un `pass` co
 Piensa en una fila de la planilla donde registras declaraciones: cada celda tiene un encabezado que describe su contenido. Un **diccionario** funciona igual. Asocia un nombre (la clave) con un dato (el valor), y accedes a cada dato por su nombre, no por su posición.
 
 La diferencia con una lista se hace clara cuando tienes varios campos sobre el mismo registro:
-
+``
 ```python
 # Con lista: accedes por posición
 declaracion_lista = ["900123456-1", "Comercializadora Andina S.A.S", 4_500_000, "Presentada"]
@@ -1887,7 +1887,7 @@ with pd.ExcelWriter(ruta_excel, engine="openpyxl") as writer:
 
     # df_salida[df_salida["nivel_riesgo"] == "Alto"] filtra las filas donde
     # la columna "nivel_riesgo" es exactamente "Alto". El resultado es un
-    # DataFrame nuevo con solo esas filas. Lo verás en detalle en la Sesión 7.
+    # DataFrame nuevo con solo esas filas.
     df_alto = df_salida[df_salida["nivel_riesgo"] == "Alto"]
     df_alto.to_excel(writer, sheet_name="Riesgo_Alto", index=False)
 
@@ -1898,7 +1898,7 @@ with pd.ExcelWriter(ruta_excel, engine="openpyxl") as writer:
 
 Si llamas `.to_excel()` fuera de un `ExcelWriter`, sin el bloque `with`, cada llamada abre y sobreescribe el archivo completo. Al terminar solo queda la última hoja.
 
-⚠️ Para exportar a Excel necesitas `openpyxl`. Si no está instalado, `.to_excel()` lanza `ModuleNotFoundError`. Instálalo con `pip install openpyxl` y actualiza `requirements.txt`.
+⚠️ Para exportar a Excel necesitas `openpyxl`. Si no está instalado, `.to_excel()` lanza `ModuleNotFoundError`. Actualiza `requirements.txt` e instálalo siguiendo el compando `pip install -r requirements.txt`.
 
 ---
 
@@ -1922,7 +1922,7 @@ Ejecuta esto sin tener `openpyxl` instalado. ¿Qué dice el error? ¿Cómo lo re
 
 📂 `src/data_exporter.py`
 
-Abre el archivo y reemplaza el `pass` de `exportar_csv()`. El TODO describe los cuatro pasos:
+Abre el archivo y reemplaza el `pass` de `exportar_csv()`. Genera la fecha de hoy, construye el nombre del archivo, construye la ruta completa y exporta el archivo. Intenta también hacer cambios y prueba los resultados.
 
 ```python
 def exportar_csv(df, carpeta, nombre_base):
@@ -1972,14 +1972,14 @@ def exportar_csv(df, carpeta, nombre_base):
 
 📂 `src/data_exporter.py`
 
-Implementa `exportar_excel_por_categoria()`. El TODO describe los pasos:
+Implementa `exportar_excel_por_categoria()`. Sigue los siguientes pasos
 
 ```python
 def exportar_excel_por_categoria(df, carpeta, nombre_base, columna_categoria):
     # TODO: Genera la fecha y construye la ruta del archivo Excel.
     # Usa pd.ExcelWriter con engine="openpyxl" dentro de un bloque with.
     # Escribe la hoja "Todos" con el DataFrame completo.
-    # Obtén los valores únicos de columna_categoria con df[columna_categoria].unique().
+    # Obtén los valores únicos de columna_categoria con unique().
     # Para cada valor único, filtra el DataFrame y escribe una hoja con ese nombre.
     pass
 ```
@@ -2089,25 +2089,25 @@ git push
 
 ## 7. Patrón ETL: separar responsabilidades
 
-El trabajo de esta sesión sigue una estructura que ya tiene nombre en el mundo de los datos: **ETL** (Extract, Transform, Load). Este patrón es uno de los conceptos más importantes en ingeniería y análisis de datos, y entenderlo bien te permite diseñar código que sea predecible, fácil de mantener y fácil de corregir cuando algo falla en producción.
+El trabajo de esta sesión sigue una estructura que tiene nombre en el mundo de los datos: **ETL** (Extract, Transform, Load). Este patrón es un concepto importante en ingeniería y análisis de datos y se explica a continuación.
 
 ### ¿Qué es ETL y de dónde viene?
 
 El término ETL surgió en los años setenta y ochenta, cuando las organizaciones empezaron a construir los primeros **almacenes de datos** (data warehouses): bases de datos especializadas que consolidaban información de múltiples sistemas operativos — contabilidad, ventas, recursos humanos — en un solo lugar para facilitar el análisis y la toma de decisiones. Antes de eso, cada sistema guardaba sus datos en un formato propio, y cruzar información entre sistemas requería trabajo manual enorme.
 
-Dos figuras son centrales en la historia del data warehouse y del patrón ETL. **Bill Inmon**, ingeniero estadounidense, es considerado el "padre del data warehouse" y en los años noventa formalizó el concepto de almacén de datos como una colección de datos orientada por tema, integrada, variante en el tiempo y no volátil. **Ralph Kimball**, también de los años noventa, desarrolló la metodología dimensional (el modelo "estrella" y "copo de nieve") que sigue siendo la referencia práctica en diseño de almacenes de datos. Ambos describieron ETL como la columna vertebral del proceso: sin una extracción limpia, una transformación consistente y una carga confiable, el almacén de datos es inútil. El acrónimo ETL se volvió estándar en la industria y hoy describe no solo una herramienta sino un **patrón arquitectónico**.
+**Bill Inmon**, ingeniero estadounidense, es considerado el "padre del data warehouse" y en los años noventa formalizó el concepto de almacén de datos como una colección de datos orientada por tema, integrada, variante en el tiempo y no volátil. **Ralph Kimball**, también de los años noventa, desarrolló la metodología dimensional (el modelo "estrella" y "copo de nieve") que sigue siendo la referencia práctica en diseño de almacenes de datos. Ambos describieron ETL como una columna clave dentro del proceso: sin una extracción limpia, una transformación consistente y una carga confiable, el almacén de datos es inútil. El acrónimo ETL se volvió estándar en la industria y hoy describe un **patrón arquitectónico** que es una solución estándar y reutilizable para resolver problemas comunes en el diseño de software a gran escala
 
-ETL ya no es solo para grandes almacenes de datos. Lo usan entidades financieras para consolidar transacciones de múltiples sucursales, hospitales para integrar registros clínicos de distintos sistemas, plataformas de comercio electrónico para actualizar inventarios y calcular métricas de ventas, y agencias tributarias 
+Este patrón actualmente lo usan entidades financieras para consolidar transacciones de múltiples sucursales, hospitales para integrar registros clínicos de distintos sistemas, plataformas de comercio electrónico para actualizar inventarios y calcular métricas de ventas, entre otras organizaciones.
 
 ---
 
 ### E — Extract: extraer los datos de su fuente
 
-La fase de extracción es el primer contacto con los datos en su estado original. El objetivo es sacarlos de donde están — un archivo CSV, una base de datos, una API, un formulario web — y cargarlos en memoria de forma íntegra y correcta, **sin modificar todavía ningún contenido**. La palabra clave es "en su forma original": la extracción no limpia, no calcula, no clasifica. Solo trae los datos.
+La fase de extracción es el primer contacto con los datos en su estado original. El objetivo es sacarlos de donde están — un archivo CSV, una base de datos, una API, un formulario web — y cargarlos en memoria de forma íntegra y correcta, **sin modificar todavía ningún contenido**. La palabra clave es "en su forma original" pues la extracción no limpia, no calcula, no clasifica, sino que solo trae los datos.
 
-En la práctica, "extraer" implica varias decisiones que pueden parecer menores pero tienen consecuencias grandes:
+En la práctica, "extraer" implica varias decisiones que pueden parecer menores pero tienen consecuencias:
 
-**¿Qué formato tiene la fuente?** CSV, Excel, JSON, una base de datos relacional, una API REST — cada formato tiene sus propias particularidades. Un CSV con separador `;` en lugar de `,` falla silenciosamente: pandas lo carga pero pone todo en una sola columna. Un CSV con encoding `cp1252` en un sistema que espera `utf-8` produce caracteres ilegibles.
+**¿Qué formato tiene la fuente?** CSV, Excel, JSON, una base de datos relacional, una API REST — cada formato tiene sus propias particularidades. Un CSV con separador `;` en lugar de `,` puede fallar si no se revisa porque pandas por defecto lo carga pero pone todo en una sola columna. Un CSV con encoding `cp1252` en un sistema que espera `utf-8` produce caracteres ilegibles.
 
 **¿Qué columnas cargar?** Traer todo el archivo siempre es tentador, pero en archivos con cientos de columnas y millones de filas puede agotar la memoria. El parámetro `usecols` de `pd.read_csv()` permite seleccionar solo las columnas que el análisis necesita, reduciendo el uso de memoria desde el primer momento.
 
@@ -2123,15 +2123,15 @@ En esta sesión, `data_loader.py` implementa la fase Extract: `cargar_declaracio
 
 La fase de transformación es donde ocurre el trabajo analítico. Los datos que vienen de la fuente rara vez llegan exactamente en la forma que el análisis necesita: hay columnas que sobran, columnas que faltan, valores que necesitan calcularse, categorías que necesitan asignarse. La transformación puede incluir varias operaciones distintas:
 
-**Limpieza**: eliminar filas duplicadas, corregir espacios invisibles al inicio y al final de campos de texto (el `.str.strip()` que viste), estandarizar categorías escritas de formas inconsistentes. Esta operación no agrega información nueva; solo corrige lo que llegó mal.
+**Limpieza**: eliminar filas duplicadas, corregir espacios invisibles al inicio y al final de campos de texto (el `.str.strip()` que viste), estandarizar categorías escritas de formas inconsistentes. Esta operación no agrega información nueva sino que corrige lo que llegó mal.
 
-**Derivación de variables**: calcular columnas nuevas que no existen en la fuente pero que el análisis requiere. En esta sesión, `nivel_riesgo` e `identificador_periodo` son variables derivadas: no estaban en el CSV original, pero se calculan a partir de columnas que sí estaban (`valor_declarado`, `nit`, `periodo`). Una variable derivada no modifica los datos originales — agrega una columna nueva al DataFrame.
+**Derivación de variables**: calcular columnas nuevas que no existen en la fuente pero que el análisis requiere. En esta sesión, `nivel_riesgo` e `identificador_periodo` son variables derivadas: no estaban en el CSV original, pero se calculan a partir de columnas que sí estaban (`valor_declarado`, `nit`, `periodo`). Una variable derivada no modifica los datos originales sino que agrega una columna nueva al DataFrame.
 
 **Clasificación y enriquecimiento**: asignar valores, rangos o categorías a registros individuales basándose en reglas de negocio definidas. La lógica de umbrales que implementa `clasificar_por_valor()` es una forma de enriquecimiento: le agrega a cada declaración una clasificación de riesgo que no estaba en el dato original pero que tiene valor para el análisis posterior.
 
 **Selección y reordenamiento de columnas**: preparar el DataFrame con exactamente las columnas que el destinatario final necesita, en el orden correcto. `preparar_columnas_salida()` hace esto. Un archivo de salida bien ordenado — con el identificador al inicio, los campos de valor en el centro, el estado al final — comunica mejor que uno con las columnas en el orden en que llegaron.
 
-Una regla práctica para distinguir qué va en Transform: si la operación **modifica el contenido** del dato (calcula algo, asigna una etiqueta, cambia el tipo de una columna) pertenece a Transform. Si solo **mueve el dato** de un lugar a otro sin cambiarlo, no es Transform.
+Si la operación **modifica el contenido** del dato (calcula algo, asigna una etiqueta, cambia el tipo de una columna) pertenece a Transform. Si solo **mueve el dato** de un lugar a otro sin cambiarlo, no es Transform.
 
 En esta sesión, `data_transformer.py` implementa esta fase completa.
 
@@ -2139,11 +2139,11 @@ En esta sesión, `data_transformer.py` implementa esta fase completa.
 
 ### L — Load: cargar los resultados en el destino
 
-La fase de carga escribe los datos transformados en el destino final. "Load" en ETL no significa "cargar en memoria" (ese es Extract); significa "cargar en el sistema de destino": un archivo CSV para pasar a otro proceso, un Excel para un analista, una base de datos para consultas en tiempo real, un sistema de BI para visualización. En todos los casos, la fase de carga toma el DataFrame limpio y transformado que salió de Transform y lo persiste en alguna forma duradera.
+La fase de carga escribe los datos transformados en el destino final. "Load" en ETL no significa "cargar en memoria" (ese es Extract); significa "cargar en el sistema de destino": un archivo CSV para pasar a otro proceso, un Excel para un analista, una base de datos para consultas en tiempo real, un sistema de inteligencia de negocios para visualización. En todos los casos, la fase de carga toma el DataFrame limpio y transformado que salió de Transform y lo persiste en alguna forma duradera.
 
-La fase Load toma decisiones sobre el formato de salida. ¿CSV o Excel? ¿Un solo archivo o uno por categoría? ¿Con la fecha en el nombre para no sobreescribir versiones anteriores? Estas son decisiones de Load, no de Transform. Transform no sabe ni le importa a dónde van los datos; solo los prepara correctamente.
+La fase Load toma decisiones sobre el formato de salida. ¿CSV o Excel? ¿Un solo archivo o uno por categoría? ¿Con la fecha en el nombre para no sobreescribir versiones anteriores? Estas son decisiones de Load, no de Transform. Transform no sabe ni le importa a dónde van los datos, sino que solo los prepara correctamente.
 
-Una distinción importante: la fase Load no sabe cómo se calcularon los datos ni de dónde vienen. Solo recibe un DataFrame listo y lo escribe. Si mañana quisieras cambiar el formato de salida de CSV a JSON, o escribir directamente a una base de datos PostgreSQL, solo cambiarías `data_exporter.py`. Las fases Extract y Transform no necesitan saber nada de ese cambio.
+Por otra parte, la fase Load no sabe cómo se calcularon los datos ni de dónde vienen. Solo recibe un DataFrame listo y lo escribe. Si mañana quisieras cambiar el formato de salida de CSV a JSON, o escribir directamente a una base de datos PostgreSQL, solo cambiarías `data_exporter.py`. Las fases Extract y Transform no necesitan saber nada de ese cambio.
 
 En esta sesión, `data_exporter.py` implementa la fase Load: `exportar_csv()` y `exportar_excel_por_categoria()` escriben el resultado a disco.
 
@@ -2151,9 +2151,9 @@ En esta sesión, `data_exporter.py` implementa la fase Load: `exportar_csv()` y 
 
 ### ¿Por qué importa separar las tres fases?
 
-En un script de unas pocas decenas de líneas, puedes mezclar las tres fases sin consecuencias graves. El problema aparece cuando el código crece, cuando hay múltiples personas trabajando sobre el mismo proceso, o cuando algo falla en producción.
+En un script de unas pocas decenas de líneas, puedes mezclar las tres fases pero mezclar el código cuando el código crece, cuando hay múltiples personas trabajando sobre el mismo proceso, o cuando algo falla en producción ( donde otros usuarios usan el código) trae consecuencias. Por ejemplo:
 
-**Localización de errores**: imagina que el proceso se corre todos los lunes a las 6 a.m. y esta semana el archivo de declaraciones llegó con el nombre distinto. El proceso falla. Si tienes una función `cargar_declaraciones()` separada, el error queda localizado en `data_loader.py` y sabes exactamente dónde buscar. Si la carga, la transformación y la exportación están mezcladas en 300 líneas sin estructura, el error puede estar en cualquier parte.
+**Localización de errores**: imagina que el proceso se corre todos los lunes a las 6 a.m. y esta semana el archivo de declaraciones llegó con el nombre distinto. El proceso falla. Si tienes una función `cargar_declaraciones()` separada, el error queda localizado en `data_loader.py` y sabes exactamente dónde buscar. Si la carga, la transformación y la exportación están mezcladas en 300 líneas el error puede estar en cualquier parte.
 
 **Reproducibilidad**: si guardas el archivo fuente original y el código de transformación por separado, puedes reproducir exactamente el mismo resultado meses después. Puedes cambiar los umbrales de clasificación, volver a correr la transformación y comparar los resultados antes y después del cambio. Sin separación, es difícil saber qué datos entraron ni qué lógica se aplicó.
 
@@ -2167,8 +2167,7 @@ En un script de unas pocas decenas de líneas, puedes mezclar las tres fases sin
 | **Transform** | Clasificar, derivar variables, seleccionar columnas | `src/data_transformer.py` | `clasificar_por_valor()`, `agregar_identificador_periodo()`, `preparar_columnas_salida()` |
 | **Load** | Escribir los resultados a disco | `src/data_exporter.py` | `exportar_csv()`, `exportar_excel_por_categoria()` |
 
-`main.py` no hace ninguna de esas tres cosas: solo las coordina en secuencia. Es el director de orquesta: decide el orden en que se llaman las funciones, pero no toca ningún instrumento.
-
+`main.py` no hace ninguna de esas tres cosas sino que solo las coordina en secuencia y decide el orden en que se llaman las funciones.
 Si completaste los ejercicios avanzados de las secciones anteriores, cada opción del menú en `main.py` ya tiene su implementación y los imports del bloque superior están descomentados. La opción 5 (pipeline completo) llama a todas las etapas en secuencia:
 
 ```python
@@ -2192,7 +2191,7 @@ print("Archivos generados en", CARPETA_RESULTADOS)
 
 ### Ejercicios
 
-#### Básico
+#### Uno
 
 Describe con tus palabras qué hace cada módulo y por qué es útil separarlos en archivos distintos en lugar de tener todo en `main.py`.
 
@@ -2203,7 +2202,7 @@ Describe con tus palabras qué hace cada módulo y por qué es útil separarlos 
 
 </details>
 
-#### Intermedio
+#### Dos
 
 Revisa el código que escribiste en las secciones 3–6 y traza el flujo completo: ¿qué entra y qué sale de cada módulo? ¿Qué pasaría si `cargar_declaraciones()` retornara `None` en lugar de un DataFrame? ¿En qué opción del menú fallaría primero y con qué error?
 
@@ -2214,7 +2213,7 @@ Entra: una ruta de archivo. Sale: un DataFrame. Si `cargar_declaraciones()` reto
 
 </details>
 
-#### Avanzado
+#### Tres
 
 Implementa la opción 5 del menú en `main.py` (`# OPCIÓN 5: PIPELINE COMPLETO`): llama en secuencia a las funciones de carga, inspección, transformación y exportación que ya implementaste en las opciones anteriores. Ejecuta el pipeline completo desde el menú y verifica que los archivos aparecen en `data/outputs/` con los nombres y columnas esperados.
 
